@@ -1,0 +1,36 @@
+{
+  "name": "nextreactsnippets",
+  "displayName": "Next.js and React Snippets",
+  "description": "This is an extension for Next.js and React Snippets with ts support as well!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "scripts": {
+    "format": "prettier --write \"{components,code}/**/*.{js,jsx,ts,tsx}\"",
+    "format:check": "prettier --check \"{components,code}/**/*.{js,jsx,ts,tsx}\""
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react-typescript.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react-javascript.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/next-typescript.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/next-javascript.code-snippets"
+      }
+    ]
+  }
+}
