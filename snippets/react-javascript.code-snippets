@@ -1,14 +1,14 @@
 {
-    "rafce": {
-        "prefix": "rafce",
-        "body": [
-            "const ${1:${TM_FILENAME}}= () => {",
-            "  return <div></div>;",
-            "};",
-            "",
-            "export default ${1:${TM_FILENAME}};",
-            ""
-        ],
-        "description": "React Functional Component "
-    }
+  "rafce": {
+    "prefix": "rafce",
+    "body": [
+      "const ${1:${TM_FILENAME}}= () => {",
+      "  return <div></div>;",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME}};",
+      ""
+    ],
+    "description": "React Functional Component"
+  }
 }

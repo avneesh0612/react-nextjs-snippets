@@ -1,65 +1,89 @@
 # Next.js and React Snippets README
 
-This is the README for your extension "Next.js and React Snippets". After writing up a brief description, we recommend including the following sections.
+NextJS and React Snippets with TypeScript support as well!🚀
 
-## Features
+# Installation
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Install the VSCode extension
+- Reload VSCode
+- Snippets are ready 🎉
 
-For example if there is an image subfolder under your extension project workspace:
+# Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+## React
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### JavaScript
 
-## Requirements
+1.  `rafce` (React Functional Component)
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+    ```jsx
+    const Component = () => {
+      return <div></div>;
+    };
+    export default Component;
+    ```
 
-## Extension Settings
+### TypeScript
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+2. `rafect` (React Functional Component with Types)
 
-For example:
+   ```tsx
+   import { FC } from 'react';
+   interface Props {}
+   const Component: FC<Props> = () => {
+     return <div></div>;
+   };
+   export default Component;
+   ```
 
-This extension contributes the following settings:
+## NextJS
 
-- `myExtension.enable`: enable/disable this extension
-- `myExtension.thing`: set to `blah` to do something
+### JavaScript
 
-## Known Issues
+1.  `nextssr` (Get Server Side Props Next.js)
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+    ```jsx
+    export const getServerSideProps = async (context) => {
+      return {
+        props: {},
+      };
+    };
+    ```
 
-## Release Notes
+2.  `nextssg` (Get Static Props Next.js)
 
-Users appreciate release notes as you update your extension.
+    ```jsx
+    export const getStaticProps = async (context) => {
+      return {
+        props: {},
+      };
+    };
+    ```
 
-### 1.0.0
+### TypeScript
 
-Initial release of ...
+1. `nextssrt` (Get Server Side Props Next.js)
 
-### 1.0.1
+   ```tsx
+   export const getServerSideProps: GetServerSideProps = async (context) => {
+     return { props: {} };
+   };
+   ```
 
-Fixed issue #.
+2. `nextssgt` (Get Static Props Next.js)
 
-### 1.1.0
+   ```tsx
+   export const getStaticProps: getStaticProps = async (context) => {
+     return { props: {} };
+   };
+   ```
 
-Added features X, Y, and Z.
+3. `taytay` (NextPage component with NextPage type)
 
----
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+   ```tsx
+   import type { NextPage } from 'next';
+   const Page: NextPage = () => {
+     return <></>;
+   };
+   export default Page;
+   ```
