@@ -38,5 +38,22 @@
       "export default ${1:${TM_FILENAME}}"
     ],
     "description": "NextPage component with NextPage type"
-   }
+   },
+   "nct": {
+		"prefix": "nextct",
+		"body": [
+			"import type { NextComponentType, NextPageContext } from \"next\";",
+			"interface Props {}",
+			"const ${1:${TM_FILENAME_BASE}}: NextComponentType<NextPageContext, {}, Props> = (",
+      "  props: Props,",
+      ") => {",
+			"  return (",
+      "    <div></div>",
+      "  )",
+			"}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}"
+		],
+    "description": "Next JS Component with NextComponentType and Props"
+	}
 }
