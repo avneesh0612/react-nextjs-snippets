@@ -10,6 +10,7 @@
     ],
     "description": "Next.js Get Server Side Props Typescript"
   },
+
   "nssgt": {
     "prefix": "nssgt",
     "body": [
@@ -21,6 +22,7 @@
     ],
     "description": "Next.js Get Static Props Typescript"
   },
+
   "npt": {
     "prefix": "npt",
     "body": [
@@ -37,6 +39,7 @@
     ],
     "description": "Next.js Page Typescript"
   },
+
   "ngip": {
     "prefix": "ngip",
     "body": [
@@ -44,11 +47,11 @@
       "  return {",
       "    ",
       "  };",
-      "};",
-      ""
+      "};"
     ],
     "description": "Next.js Get Initial Props"
   },
+
   "nct": {
     "prefix": "nct",
     "body": [
@@ -79,5 +82,37 @@
       "}"
     ],
     "description": "Next.js Get Static Path Typescript"
+  },
+  "ncappt": {
+    "prefix": "ncappt",
+    "body": [
+      "const MyApp = ({ Component, pageProps }) => {",
+      "  return <Component {...pageProps} />;",
+      "};",
+      "",
+      "export default MyApp;"
+    ],
+    "description": "Next Custom App Typescript"
+  },
+
+  "ncdoct": {
+    "prefix": "ncdoct",
+    "body": [
+      "import Document, { Html, Main, NextScript } from \"next/_document\";",
+      "",
+      "const Document: Document = () => {",
+      "  return (",
+      "    <Html lang=\"en\">",
+      "      <body>",
+      "        <Main />",
+      "        <NextScript />",
+      "      </body>",
+      "    </Html>",
+      "  );",
+      "};",
+      "",
+      "export default Document;"
+    ],
+    "description": "Next Custom Document Typescript"
   }
 }
