@@ -14,80 +14,80 @@ NextJS and React Snippets with TypeScript support as well!🚀
 
 ### JavaScript
 
-1. `rim` (Import React)
+1. `rir` (Import React)
 
-  ```jsx
-  import React from 'react';
-  ```
+    ```jsx
+    import React from 'react';
+    ```
 
 2. `rird` (Import ReactDOM)
 
-  ```jsx
-  import ReactDOM from 'react-dom';
-  ```
+    ```jsx
+    import ReactDOM from 'react-dom';
+    ```
 
 3. `rimrs` (Import React and useState)
 
-  ```jsx
-  import React, { useState } from 'react';
-  ```
+    ```jsx
+    import React, { useState } from 'react';
+    ```
 
 4. `rimrse` (Import React, useState and useEffect)
 
-  ```jsx
-  import React, { useState, useEffect} from 'react';
-  ```
+    ```jsx
+    import React, { useState, useEffect} from 'react';
+    ```
 
 5. `rfce` (React functional component)
 
-  ```jsx
-  const Component = () => {
-    return <div></div>;
-  }
-  export default Component;
-  ```
+    ```jsx
+    const Component = () => {
+      return <div></div>;
+    }
+    export default Component;
+    ```
 
 6. `rue` (React useEffect)
 
-  ```jsx
-  useEffect(() => {
-    
-    }, []);
-  ```
+    ```jsx
+    useEffect(() => {
+      
+      }, []);
+    ```
 
 7. `rus` (React useState)
 
-  ```jsx
-  const [state, setState] = useState(initialValue);
-  ```
+    ```jsx
+    const [state, setState] = useState(initialValue);
+    ```
 
 8. `ruc` (React useContext)
 
-  ```jsx
-  const value = useContext(myContext);
-  ```
+    ```jsx
+    const value = useContext(myContext);
+    ```
 
 9. `rur` (React useRef)
 
-  ```jsx
-  const refContainer = useRef(initialValue);
-  ```
+    ```jsx
+    const refContainer = useRef(initialValue);
+    ```
 
 ### TypeScript
 
 1. `rfcet` (React functional component Typescript)
 
-  ```tsx
-  import React from "react";
+    ```tsx
+    import React from "react";
 
-  interface Props {}
+    interface Props {}
 
-  function Component({}: Props) {
-    return <div></div>;
-  }
+    function Component({}: Props) {
+      return <div></div>;
+    }
 
-  export default Component;
-  ```
+    export default Component;
+    ```
 
 ## NextJS
 

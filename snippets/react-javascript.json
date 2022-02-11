@@ -1,6 +1,6 @@
 {
   "Import React": {
-    "prefix": "rim",
+    "prefix": "rir",
     "body": ["import React from 'react';"],
     "description": "Import React"
   },
