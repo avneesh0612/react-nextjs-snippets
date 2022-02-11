@@ -6,10 +6,10 @@
       "",
       "interface Props {}",
       "",
-      "const ${1:${TM_FILENAME}}: FC<Props> = () => {",
+      "const ${1:${TM_FILENAME_BASE}}: FC<Props> = () => {",
       "  return <div></div>;",
       "};",
-      "export default ${1:${TM_FILENAME}};"
+      "export default ${1:${TM_FILENAME_BASE}};"
     ],
     "description": "React Functional Component with Types"
   }
