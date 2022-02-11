@@ -1,0 +1,59 @@
+{
+  "Import React": {
+    "prefix": "rim",
+    "body": ["import React from 'react';"],
+    "description": "Import React"
+  },
+  "Import ReactDOM": {
+    "prefix": "rird",
+    "body": ["import ReactDOM from 'react-dom';"],
+    "description": "Import ReactDOM"
+  },
+  "Import React and useState": {
+    "prefix": "rimrs",
+    "body": [
+      "import * as React from 'react';",
+      "import { useState } from 'react';\n"
+    ],
+    "description": "Import React and useState"
+  },
+  "Import React, useState and useEffect": {
+    "prefix": "rimrse",
+    "body": [
+      "import * as React from 'react';",
+      "import { useState, useEffect } from 'react';\n"
+    ],
+    "description": "Import React, useState and useEffect"
+  },
+  "React functional component": {
+    "prefix": "rfc",
+    "body": [
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return <div></div>;",
+      "};",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "React functional component"
+  },
+  "React useEffect": {
+    "prefix": "rue",
+    "body": ["useEffect(() => {", "\t$1", "}, []);"],
+    "description": "useEffect"
+  },
+  "React useState": {
+    "prefix": "rus",
+    "body": ["const [${1}, set${1}] = useState(${2});"],
+    "description": "useState"
+  },
+  "React useContent": {
+    "prefix": "ruc",
+    "body": ["const ${1} = useContext(${2});"],
+    "description": "useContent"
+  },
+  "React useRef": {
+    "prefix": "rur",
+    "body": ["const ${1} = useRef(${2});"],
+    "description": "React useRef"
+  }
+}
