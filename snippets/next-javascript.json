@@ -9,7 +9,7 @@
       "};",
       ""
     ],
-    "description": "Get Server Side Props Next.js"
+    "description": "Next.js Get Server Side Props Typescript"
   },
   "ssg": {
     "prefix": "nssg",
@@ -21,6 +21,6 @@
       "};",
       ""
     ],
-    "description": "Get Static Props Next.js"
+    "description": "Next.js Get Static Props Typescript"
   }
 }

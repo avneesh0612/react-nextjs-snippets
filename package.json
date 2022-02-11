@@ -7,8 +7,14 @@
     "vscode": "^1.64.0"
   },
   "scripts": {
-    "format": "prettier --write \"{components,code}/**/*.{js,jsx,ts,tsx}\"",
-    "format:check": "prettier --check \"{components,code}/**/*.{js,jsx,ts,tsx}\""
+    "prepare": "husky install",
+    "pre-commit": "yarn run format && yarn run lint && git add -A .",
+    "format": "prettier --write \"{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format:check": "prettier --check \"{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\"",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "categories": [
     "Snippets"

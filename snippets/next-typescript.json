@@ -9,7 +9,7 @@
       "};",
       ""
     ],
-    "description": "Get Server Side Props Next.js"
+    "description": "Next.js Get Server Side Props Typescript"
   },
   "nssgt": {
     "prefix": "nssgt",
@@ -21,10 +21,10 @@
       "};",
       ""
     ],
-    "description": "Get Static Props Next.js"
+    "description": "Next.js Get Static Props Typescript"
   },
-  "npaget": {
-    "prefix": "npaget",
+  "npt": {
+    "prefix": "npt",
     "body": [
       "import type { NextPage } from \"next\";",
       "",
@@ -37,9 +37,9 @@
       "",
       "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
     ],
-    "description": "NextPage component with NextPage type"
-   },
-   "ngip": {
+    "description": "Next.js Page Typescript"
+  },
+  "ngip": {
     "prefix": "ngip",
     "body": [
       "${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}.getInitialProps = async context => {",
@@ -47,25 +47,25 @@
       "    ",
       "  };",
       "};",
-      ""     
+      ""
     ],
-    "description": "Get Initial Props in Next.js"
-   },
-   "nct": {
-		"prefix": "nct",
-		"body": [
-			"import type { NextComponentType, NextPageContext } from \"next\";",
-			"interface Props {}",
-			"const ${1:${TM_FILENAME_BASE}}: NextComponentType<NextPageContext, {}, Props> = (",
+    "description": "Next.js Get Initial Props"
+  },
+  "nct": {
+    "prefix": "nct",
+    "body": [
+      "import type { NextComponentType, NextPageContext } from \"next\";",
+      "interface Props {}",
+      "const ${1:${TM_FILENAME_BASE}}: NextComponentType<NextPageContext, {}, Props> = (",
       "  props: Props,",
       ") => {",
-			"  return (",
+      "  return (",
       "    <div></div>",
       "  )",
-			"}",
+      "}",
       "",
       "export default ${1:${TM_FILENAME_BASE}}"
-		],
-    "description": "Next JS Component with NextComponentType and Props"
-	}
+    ],
+    "description": "Next.js Component Typescript"
+  }
 }
