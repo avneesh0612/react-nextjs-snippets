@@ -7,8 +7,14 @@
     "vscode": "^1.64.0"
   },
   "scripts": {
-    "format": "prettier --write \"{components,code}/**/*.{js,jsx,ts,tsx}\"",
-    "format:check": "prettier --check \"{components,code}/**/*.{js,jsx,ts,tsx}\""
+    "prepare": "husky install",
+    "pre-commit": "yarn run format && yarn run lint && git add -A .",
+    "format": "prettier --write \"{code,snippets}/**/*.{js,jsx,ts,tsx,json}\"",
+    "format:check": "prettier --check \"{code,snippets}/**/*.{js,jsx,ts,tsx,json}\"",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "categories": [
     "Snippets"
@@ -17,19 +23,19 @@
     "snippets": [
       {
         "language": "typescriptreact",
-        "path": "./snippets/react-typescript.code-snippets"
+        "path": "./snippets/react-typescript.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/react-javascript.code-snippets"
+        "path": "./snippets/react-javascript.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/next-typescript.code-snippets"
+        "path": "./snippets/next-typescript.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/next-javascript.code-snippets"
+        "path": "./snippets/next-javascript.json"
       }
     ]
   },
@@ -38,6 +44,7 @@
     "@commitlint/config-conventional": "^16.0.0"
   },
   "devDependencies": {
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1"
   }
 }
