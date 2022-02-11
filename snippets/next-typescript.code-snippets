@@ -1,6 +1,6 @@
 {
-  "ssrt": {
-    "prefix": "nextssrt",
+  "nssrt": {
+    "prefix": "nssrt",
     "body": [
       "export const getServerSideProps: GetServerSideProps = async context => {",
       "  return {",
@@ -11,8 +11,8 @@
     ],
     "description": "Get Server Side Props Next.js"
   },
-  "ssgt": {
-    "prefix": "nextssgt",
+  "nssgt": {
+    "prefix": "nssgt",
     "body": [
       "export const getStaticProps: getStaticProps = async context => {",
       "  return {",
@@ -23,8 +23,8 @@
     ],
     "description": "Get Static Props Next.js"
   },
-  "taytay": {
-    "prefix": "taytay",
+  "npaget": {
+    "prefix": "npaget",
     "body": [
       "import type { NextPage } from \"next\";",
       "",
@@ -39,8 +39,8 @@
     ],
     "description": "NextPage component with NextPage type"
    },
-   "nextgip": {
-    "prefix": "nextgip",
+   "ngip": {
+    "prefix": "ngip",
     "body": [
       "${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}.getInitialProps = async context => {",
       "  return {",
@@ -52,7 +52,7 @@
     "description": "Get Initial Props in Next.js"
    },
    "nct": {
-		"prefix": "nextct",
+		"prefix": "nct",
 		"body": [
 			"import type { NextComponentType, NextPageContext } from \"next\";",
 			"interface Props {}",
