@@ -40,7 +40,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
 
 ### JavaScript
 
-1.  `nssr` (Get Server Side Props Next.js)
+1.  `nssr` (Next.js Get Server Side Props Typescript)
 
     ```jsx
     export const getServerSideProps = async (context) => {
@@ -50,7 +50,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
     };
     ```
 
-2.  `nssg` (Get Static Props Next.js)
+2.  `nssg` (Next.js Get Static Props Typescript)
 
     ```jsx
     export const getStaticProps = async (context) => {
@@ -62,7 +62,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
 
 ### TypeScript
 
-1. `nssrt` (Get Server Side Props Next.js)
+1. `nssrt` (Next.js Get Server Side Props Typescript)
 
    ```tsx
    export const getServerSideProps: GetServerSideProps = async (context) => {
@@ -70,7 +70,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
    };
    ```
 
-2. `nssgt` (Get Static Props Next.js)
+2. `nssgt` (Next.js Get Static Props Typescript)
 
    ```tsx
    export const getStaticProps: getStaticProps = async (context) => {
@@ -86,7 +86,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
    };
    ```
 
-3) `npaget` (NextPage component with NextPage type)
+3) `npt` (Next.js Page Typescript)
 
    ```tsx
    import type { NextPage } from "next";
@@ -96,7 +96,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
    export default Page;
    ```
 
-4) `nct` (Next JS Component with NextComponentType and Props)
+4) `nct` (Next.js Component Typescript)
 
    ```tsx
    import type { NextComponentType, NextPageContext } from "next";
