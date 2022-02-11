@@ -14,16 +14,5 @@
       ""
     ],
     "description": "React functional component Typescript"
-  },
-  "React functional component": {
-    "prefix": "rfc",
-    "body": [
-      "const ${1:${TM_FILENAME_BASE}} = () => {",
-      "  return <div></div>;",
-      "};",
-      "export default ${1:${TM_FILENAME_BASE}};",
-      ""
-    ],
-    "description": "React functional component"
   }
 }

@@ -19,21 +19,6 @@
     "body": ["import React, { useState, useEffect} from 'react';"],
     "description": "Import React, useState and useEffect"
   },
-  "rfce": {
-    "prefix": "rfce",
-    "body": [
-      "import React from 'react'",
-      "",
-      "function ${1:${TM_FILENAME_BASE}}() {",
-      "  return (",
-      "    <div></div>",
-      "  )",
-      "}",
-      "",
-      "export default ${1:${TM_FILENAME_BASE}}"
-    ],
-    "description": "React Functional Component"
-  },
   "React functional component": {
     "prefix": "rfc",
     "body": [
