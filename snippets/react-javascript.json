@@ -1,11 +1,11 @@
 {
   "Import React": {
-    "prefix": "rir",
+    "prefix": "rimr",
     "body": ["import React from 'react';"],
     "description": "Import React"
   },
   "Import ReactDOM": {
-    "prefix": "rird",
+    "prefix": "rimrd",
     "body": ["import ReactDOM from 'react-dom';"],
     "description": "Import ReactDOM"
   },

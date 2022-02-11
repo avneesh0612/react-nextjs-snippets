@@ -14,13 +14,13 @@ NextJS and React Snippets with TypeScript support as well!🚀
 
 ### JavaScript
 
-1. `rir` (Import React)
+1. `rimr` (Import React)
 
     ```jsx
     import React from 'react';
     ```
 
-2. `rird` (Import ReactDOM)
+2. `rimrd` (Import ReactDOM)
 
     ```jsx
     import ReactDOM from 'react-dom';
