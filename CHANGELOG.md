@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/avneesh0612/React-Next.js-snippets/compare/v0.3.0...v0.4.0) (2022-02-11)
+
+
+### Features
+
+* add more snippets ([#18](https://github.com/avneesh0612/React-Next.js-snippets/issues/18)) ([163c60c](https://github.com/avneesh0612/React-Next.js-snippets/commit/163c60cbcb9a87f5541608dc71eafdd7e2c0c312))
+
+
+
 # [0.3.0](https://github.com/avneesh0612/React-Next.js-snippets/compare/v0.2.0...v0.3.0) (2022-02-11)
 
 
