@@ -138,6 +138,17 @@ NextJS and React Snippets with TypeScript support as well!🚀
 
     export default Document;
     ```
+    
+5. `ngsp` (Next.js Get Static Path Javascript)
+
+    ```jsx
+    export const getStaticPaths = async () => {
+      return {
+          paths:[${1}],
+          fallback:false
+        };
+    }; 
+ 
 
 ### TypeScript
 
@@ -214,3 +225,14 @@ NextJS and React Snippets with TypeScript support as well!🚀
 
    export default Document;
    ```
+
+8. `ngspt` (Next.js Get Static Path Typescript)
+
+    ```tsx
+    export const getStaticPaths: GetStaticPaths = async () => {
+      return {
+        paths:[${1}],
+        fallback:false
+      };
+    }
+    ```  
