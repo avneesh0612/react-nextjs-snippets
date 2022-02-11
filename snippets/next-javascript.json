@@ -22,15 +22,15 @@
     "description": "Next.js Get Static Props Typescript"
   },
   "ngsp": {
-  "prefix": "ngsp",
-  "body": [
-    "export const getStaticPaths = async () => {",
-    "    return {",
-    "        paths:[${1}],",
-    "        fallback:false",
-    "    }",
-    "}"
-  ],
-  "description": "Next JS Get Static Path Javascript"
-}
+    "prefix": "ngsp",
+    "body": [
+      "export const getStaticPaths = async () => {",
+      "    return {",
+      "        paths:[${1}],",
+      "        fallback:false",
+      "    }",
+      "}"
+    ],
+    "description": "Next.js Get Static Path Javascript"
+  }
 }
