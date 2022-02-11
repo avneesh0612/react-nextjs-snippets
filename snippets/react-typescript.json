@@ -13,20 +13,17 @@
       "export default ${1:${TM_FILENAME_BASE}};",
       ""
     ],
-    "description": ""
+    "description": "React functional component Typescript"
   },
-  "rafcet": {
-    "prefix": "rafcet",
+  "React functional component": {
+    "prefix": "rfc",
     "body": [
-      "import { FC } from 'react';",
-      "",
-      "interface Props {}",
-      "",
-      "const ${1:${TM_FILENAME_BASE}}: FC<Props> = () => {",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
       "  return <div></div>;",
       "};",
-      "export default ${1:${TM_FILENAME_BASE}};"
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
     ],
-    "description": "React Functional Component with Types"
+    "description": "React functional component"
   }
 }
