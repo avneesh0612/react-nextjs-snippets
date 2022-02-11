@@ -1,6 +1,6 @@
 {
-  "ssrt": {
-    "prefix": "nextssrt",
+  "nssrt": {
+    "prefix": "nssrt",
     "body": [
       "export const getServerSideProps: GetServerSideProps = async context => {",
       "  return {",
@@ -9,10 +9,10 @@
       "};",
       ""
     ],
-    "description": "Get Server Side Props Next.js"
+    "description": "Next.js Get Server Side Props Typescript"
   },
-  "ssgt": {
-    "prefix": "nextssgt",
+  "nssgt": {
+    "prefix": "nssgt",
     "body": [
       "export const getStaticProps: getStaticProps = async context => {",
       "  return {",
@@ -21,10 +21,10 @@
       "};",
       ""
     ],
-    "description": "Get Static Props Next.js"
+    "description": "Next.js Get Static Props Typescript"
   },
-  "taytay": {
-    "prefix": "taytay",
+  "npt": {
+    "prefix": "npt",
     "body": [
       "import type { NextPage } from \"next\";",
       "",
@@ -37,35 +37,35 @@
       "",
       "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
     ],
-    "description": "NextPage component with NextPage type"
-   },
-   "nextgip": {
-    "prefix": "nextgip",
+    "description": "Next.js Page Typescript"
+  },
+  "ngip": {
+    "prefix": "ngip",
     "body": [
       "${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}.getInitialProps = async context => {",
       "  return {",
       "    ",
       "  };",
       "};",
-      ""     
+      ""
     ],
-    "description": "Get Initial Props in Next.js"
-   },
-   "nct": {
-		"prefix": "nextct",
-		"body": [
-			"import type { NextComponentType, NextPageContext } from \"next\";",
-			"interface Props {}",
-			"const ${1:${TM_FILENAME_BASE}}: NextComponentType<NextPageContext, {}, Props> = (",
+    "description": "Next.js Get Initial Props"
+  },
+  "nct": {
+    "prefix": "nct",
+    "body": [
+      "import type { NextComponentType, NextPageContext } from \"next\";",
+      "interface Props {}",
+      "const ${1:${TM_FILENAME_BASE}}: NextComponentType<NextPageContext, {}, Props> = (",
       "  props: Props,",
       ") => {",
-			"  return (",
+      "  return (",
       "    <div></div>",
       "  )",
-			"}",
+      "}",
       "",
       "export default ${1:${TM_FILENAME_BASE}}"
-		],
-    "description": "Next JS Component with NextComponentType and Props"
-	}
+    ],
+    "description": "Next.js Component Typescript"
+  }
 }

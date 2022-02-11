@@ -1,6 +1,6 @@
 {
   "ssr": {
-    "prefix": "nextssr",
+    "prefix": "nssr",
     "body": [
       "export const getServerSideProps = async context => {",
       "  return {",
@@ -9,10 +9,10 @@
       "};",
       ""
     ],
-    "description": "Get Server Side Props Next.js"
+    "description": "Next.js Get Server Side Props Typescript"
   },
   "ssg": {
-    "prefix": "nextssg",
+    "prefix": "nssg",
     "body": [
       "export const getStaticProps = async context => {",
       "  return {",
@@ -21,6 +21,6 @@
       "};",
       ""
     ],
-    "description": "Get Static Props Next.js"
+    "description": "Next.js Get Static Props Typescript"
   }
 }

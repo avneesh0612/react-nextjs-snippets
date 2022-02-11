@@ -1,4 +1,20 @@
 {
+  "rfcet": {
+    "prefix": "rfcet",
+    "body": [
+      "import React from \"react\";",
+      "",
+      "interface Props {}",
+      "",
+      "function ${1:${TM_FILENAME_BASE}}({}: Props) {",
+      "  return <div></div>;",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": ""
+  },
   "rafcet": {
     "prefix": "rafcet",
     "body": [
