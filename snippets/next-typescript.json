@@ -71,7 +71,18 @@
     ],
     "description": "Next.js Component Typescript"
   },
-
+  "ngspt": {
+    "prefix": "ngspt",
+    "body": [
+      "export const getStaticPaths: GetStaticPaths = async () => {",
+      "    return {",
+      "        paths:[${1}],",
+      "        fallback:false",
+      "    }",
+      "}"
+    ],
+    "description": "Next.js Get Static Path Typescript"
+  },
   "ncappt": {
     "prefix": "ncappt",
     "body": [
