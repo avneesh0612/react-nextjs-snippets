@@ -8,7 +8,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "pre-commit": "yarn run format && yarn run lint && git add -A .",
+    "pre-commit": "yarn run format && git add -A .",
     "format": "prettier --write \"{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\"",
     "format:check": "prettier --check \"{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\"",
     "release": "standard-version",
