@@ -56,8 +56,10 @@
     "prefix": "nct",
     "body": [
       "import type { NextComponentType, NextPageContext } from \"next\";",
+      "",
       "interface Props {}",
-      "const ${1:${TM_FILENAME_BASE}}: NextComponentType<NextPageContext, {}, Props> = (",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}: NextComponentType<NextPageContext, {}, Props> = (",
       "  props: Props,",
       ") => {",
       "  return (",
@@ -65,7 +67,7 @@
       "  )",
       "}",
       "",
-      "export default ${1:${TM_FILENAME_BASE}}"
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
     ],
     "description": "Next.js Component Typescript"
   },

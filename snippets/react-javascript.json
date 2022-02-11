@@ -22,10 +22,10 @@
   "React functional component": {
     "prefix": "rfc",
     "body": [
-      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}} = () => {",
       "  return <div></div>;",
       "};",
-      "export default ${1:${TM_FILENAME_BASE}};"
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}};"
     ],
     "description": "React functional component"
   },
