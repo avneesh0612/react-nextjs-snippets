@@ -10,6 +10,7 @@
     ],
     "description": "Next.js Get Server Side Props Typescript"
   },
+
   "nssg": {
     "prefix": "nssg",
     "body": [
@@ -20,5 +21,38 @@
       "};"
     ],
     "description": "Next.js Get Static Props Typescript"
+  },
+
+  "ncapp": {
+    "prefix": "ncapp",
+    "body": [
+      "const MyApp = ({ Component, pageProps }) => {",
+      "  return <Component {...pageProps} />;",
+      "}",
+      "",
+      "export default MyApp;"
+    ],
+    "description": "Next Custom App"
+  },
+
+  "ncdoc": {
+    "prefix": "ncdoc",
+    "body": [
+      "import { Html, Main, NextScript } from \"next/_document\";",
+      "",
+      "const Document = () => {",
+      "  return (",
+      "    <Html lang=\"en\">",
+      "      <body>",
+      "        <Main />",
+      "        <NextScript />",
+      "      </body>",
+      "    </Html>",
+      "  );",
+      "};",
+      "",
+      "export default Document;"
+    ],
+    "description": "Next Custom Document"
   }
 }
