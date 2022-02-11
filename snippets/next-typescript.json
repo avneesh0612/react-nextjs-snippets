@@ -28,15 +28,44 @@
     "body": [
       "import type { NextPage } from \"next\";",
       "",
-      "const ${1:${TM_FILENAME}}: NextPage = () => {",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}: NextPage = () => {",
       "  return (",
       "    <>",
       "    </>",
       "  )",
       "}",
       "",
-      "export default ${1:${TM_FILENAME}}"
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
     ],
     "description": "NextPage component with NextPage type"
-   }
+   },
+   "nextgip": {
+    "prefix": "nextgip",
+    "body": [
+      "${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}.getInitialProps = async context => {",
+      "  return {",
+      "    ",
+      "  };",
+      "};",
+      ""     
+    ],
+    "description": "Get Initial Props in Next.js"
+   },
+   "nct": {
+		"prefix": "nextct",
+		"body": [
+			"import type { NextComponentType, NextPageContext } from \"next\";",
+			"interface Props {}",
+			"const ${1:${TM_FILENAME_BASE}}: NextComponentType<NextPageContext, {}, Props> = (",
+      "  props: Props,",
+      ") => {",
+			"  return (",
+      "    <div></div>",
+      "  )",
+			"}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}"
+		],
+    "description": "Next JS Component with NextComponentType and Props"
+	}
 }

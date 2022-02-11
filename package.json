@@ -2,7 +2,7 @@
   "name": "nextreactsnippets",
   "displayName": "Next.js and React Snippets",
   "description": "This is an extension for Next.js and React Snippets with ts support as well!",
-  "version": "0.0.1",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.64.0"
   },
@@ -32,5 +32,12 @@
         "path": "./snippets/next-javascript.code-snippets"
       }
     ]
+  },
+  "dependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4"
   }
 }
