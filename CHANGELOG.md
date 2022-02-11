@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/avneesh0612/React-Next.js-snippets/compare/v0.4.0...v0.4.1) (2022-02-11)
+
+
+### Bug Fixes
+
+* file extension :P ([73ee97b](https://github.com/avneesh0612/React-Next.js-snippets/commit/73ee97b84376fa8ad0e39608663d4de6d63986d3))
+
+
+
 # [0.4.0](https://github.com/avneesh0612/React-Next.js-snippets/compare/v0.3.0...v0.4.0) (2022-02-11)
 
 
