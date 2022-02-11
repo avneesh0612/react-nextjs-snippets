@@ -14,37 +14,86 @@ NextJS and React Snippets with TypeScript support as well!🚀
 
 ### JavaScript
 
-1.  `rafce` (React Functional Component)
+1. `rimr` (Import React)
+
+    ```jsx
+    import React from 'react';
+    ```
+
+2. `rimrd` (Import ReactDOM)
+
+    ```jsx
+    import ReactDOM from 'react-dom';
+    ```
+
+3. `rimrs` (Import React and useState)
+
+    ```jsx
+    import React, { useState } from 'react';
+    ```
+
+4. `rimrse` (Import React, useState and useEffect)
+
+    ```jsx
+    import React, { useState, useEffect} from 'react';
+    ```
+
+5. `rfce` (React functional component)
 
     ```jsx
     const Component = () => {
       return <div></div>;
-    };
+    }
     export default Component;
+    ```
+
+6. `rue` (React useEffect)
+
+    ```jsx
+    useEffect(() => {
+      
+      }, []);
+    ```
+
+7. `rus` (React useState)
+
+    ```jsx
+    const [state, setState] = useState(initialValue);
+    ```
+
+8. `ruc` (React useContext)
+
+    ```jsx
+    const value = useContext(myContext);
+    ```
+
+9. `rur` (React useRef)
+
+    ```jsx
+    const refContainer = useRef(initialValue);
     ```
 
 ### TypeScript
 
-2. `rafect` (React Functional Component with Types)
+1. `rfcet` (React functional component Typescript)
 
-   ```tsx
-   import { FC } from "react";
-   interface Props {}
-   const Component: FC<Props> = () => {
-     return <div></div>;
-   };
-   export default Component;
-   ```
+    ```tsx
+    import React from "react";
+
+    interface Props {}
+
+    function Component({}: Props) {
+      return <div></div>;
+    }
+
+    export default Component;
+    ```
 
 ## NextJS
 
 ### JavaScript
 
-<<<<<<< HEAD
-1.  `nssr` (Get Server Side Props Next.js)
-=======
 1.  `nssr` (Next.js Get Server Side Props Typescript)
->>>>>>> 5f7082e97c62b0d190ff1375a6a840db993a53c2
 
     ```jsx
     export const getServerSideProps = async (context) => {
@@ -54,11 +103,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
     };
     ```
 
-<<<<<<< HEAD
-2.  `nssg` (Get Static Props Next.js)
-=======
 2.  `nssg` (Next.js Get Static Props Typescript)
->>>>>>> 5f7082e97c62b0d190ff1375a6a840db993a53c2
 
     ```jsx
     export const getStaticProps = async (context) => {
@@ -70,11 +115,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
 
 ### TypeScript
 
-<<<<<<< HEAD
-1. `nssrt` (Get Server Side Props Next.js)
-=======
 1. `nssrt` (Next.js Get Server Side Props Typescript)
->>>>>>> 5f7082e97c62b0d190ff1375a6a840db993a53c2
 
    ```tsx
    export const getServerSideProps: GetServerSideProps = async (context) => {
@@ -82,11 +123,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
    };
    ```
 
-<<<<<<< HEAD
-2. `nssgt` (Get Static Props Next.js)
-=======
 2. `nssgt` (Next.js Get Static Props Typescript)
->>>>>>> 5f7082e97c62b0d190ff1375a6a840db993a53c2
 
    ```tsx
    export const getStaticProps: getStaticProps = async (context) => {
@@ -102,11 +139,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
    };
    ```
 
-<<<<<<< HEAD
-3) `npaget` (NextPage component with NextPage type)
-=======
-3) `npt` (Next.js Page Typescript)
->>>>>>> 5f7082e97c62b0d190ff1375a6a840db993a53c2
+4. `npt` (Next.js Page Typescript)
 
    ```tsx
    import type { NextPage } from "next";
@@ -116,11 +149,7 @@ NextJS and React Snippets with TypeScript support as well!🚀
    export default Page;
    ```
 
-<<<<<<< HEAD
-4) `nct` (Next JS Component with NextComponentType and Props)
-=======
-4) `nct` (Next.js Component Typescript)
->>>>>>> 5f7082e97c62b0d190ff1375a6a840db993a53c2
+5. `nct` (Next.js Component Typescript)
 
    ```tsx
    import type { NextComponentType, NextPageContext } from "next";
