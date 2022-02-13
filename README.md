@@ -41,7 +41,7 @@ React and Next.js Snippets with TypeScript support as well!🚀
    import React, { useState, useEffect } from "react";
    ```
 
-5. `rfce` (React functional component)
+5. `rfc` (React functional component)
 
    ```jsx
    const Component = () => {
