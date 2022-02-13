@@ -2,7 +2,7 @@
   "name": "react-nextjs-snippets",
   "displayName": "Next.js and React Snippets",
   "description": "This is an extension for Next.js and React Snippets with ts support as well!",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "publisher": "AvneeshAgarwal",
   "icon": "https://res.cloudinary.com/didkcszrq/image/upload/v1644739505/logo_bofnsm.png",
   "repository": {
