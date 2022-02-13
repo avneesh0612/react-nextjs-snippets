@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.1.0...v1.1.1) (2022-02-13)
+
+
+### Bug Fixes
+
+* update name everywhere ([e1d287d](https://github.com/avneesh0612/react-nextjs-snippets/commit/e1d287da4dc55304d9d805e3e002574c92109c74))
+
+
+
 # [1.1.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v0.6.1...v1.1.0) (2022-02-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * file extension :P ([73ee97b](https://github.com/avneesh0612/react-nextjs-snippets/commit/73ee97b84376fa8ad0e39608663d4de6d63986d3))
-
-
-
-# [0.4.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v0.3.0...v0.4.0) (2022-02-11)
-
-
-### Features
-
-* add more snippets ([#18](https://github.com/avneesh0612/react-nextjs-snippets/issues/18)) ([163c60c](https://github.com/avneesh0612/react-nextjs-snippets/commit/163c60cbcb9a87f5541608dc71eafdd7e2c0c312))
 
 
 
