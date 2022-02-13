@@ -2,6 +2,9 @@
 
 NextJS and React Snippets with TypeScript support as well!🚀
 
+![Logo Showcase](https://user-images.githubusercontent.com/76690419/153743536-15a5218f-12fc-4f20-9557-9f79863ef5b8.png)
+
+
 # Installation
 
 - Install the VSCode extension
