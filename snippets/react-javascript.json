@@ -43,7 +43,7 @@
   "React useContext": {
     "prefix": "ruc",
     "body": ["const ${1} = useContext(${2});"],
-    "description": "useContent"
+    "description": "useContext"
   },
   "React useRef": {
     "prefix": "rur",
