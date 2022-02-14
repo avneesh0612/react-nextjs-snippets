@@ -4,6 +4,8 @@ React and Next.js Snippets with TypeScript support as well!🚀
 
 ![Logo Showcase](https://user-images.githubusercontent.com/76690419/153743536-15a5218f-12fc-4f20-9557-9f79863ef5b8.png)
 
+<a href="https://www.producthunt.com/posts/react-and-next-js-snippets?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-react-and-next-js-snippets" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=331596&theme=dark" alt="React and Next.js Snippets - React and Next.js snippets with TypeScript | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 
 # Installation
 
