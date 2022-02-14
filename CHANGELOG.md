@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.2.0...v1.2.1) (2022-02-14)
+
+
+### Bug Fixes
+
+* use png instead of svg as vscode marketplace doesn't support png ([40c39a6](https://github.com/avneesh0612/react-nextjs-snippets/commit/40c39a6e4d3c08fe8a6f24fc857ffdd93eafd383))
+
+
+
 # [1.2.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.1.1...v1.2.0) (2022-02-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * icon ([f115134](https://github.com/avneesh0612/react-nextjs-snippets/commit/f11513440b1d89b32d555d5defecec3494c44cd2))
-
-
-
-# [0.5.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v0.4.1...v0.5.0) (2022-02-11)
-
-
-### Features
-
-* added next custom next doc and _app ([#23](https://github.com/avneesh0612/react-nextjs-snippets/issues/23)) ([69b11e6](https://github.com/avneesh0612/react-nextjs-snippets/commit/69b11e6f21adbd0b9afeeeb0e494824a55ec67f7))
 
 
 
