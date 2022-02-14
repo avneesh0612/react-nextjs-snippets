@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.1.1...v1.2.0) (2022-02-14)
+
+
+### Features
+
+* add ProductHunt embed in Readme ([c42e2b7](https://github.com/avneesh0612/react-nextjs-snippets/commit/c42e2b716a2c5d034636eae6727631378daea01b))
+
+
+
 ## [1.1.1](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.1.0...v1.1.1) (2022-02-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added next custom next doc and _app ([#23](https://github.com/avneesh0612/react-nextjs-snippets/issues/23)) ([69b11e6](https://github.com/avneesh0612/react-nextjs-snippets/commit/69b11e6f21adbd0b9afeeeb0e494824a55ec67f7))
-
-
-
-## [0.4.1](https://github.com/avneesh0612/react-nextjs-snippets/compare/v0.4.0...v0.4.1) (2022-02-11)
-
-
-### Bug Fixes
-
-* file extension :P ([73ee97b](https://github.com/avneesh0612/react-nextjs-snippets/commit/73ee97b84376fa8ad0e39608663d4de6d63986d3))
 
 
 
