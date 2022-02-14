@@ -7,7 +7,6 @@ React and Next.js Snippets with TypeScript support as well!🚀
 <a href="https://www.producthunt.com/posts/react-and-next-js-snippets?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-react-and-next-js-snippets" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.png?post_id=331596&theme=dark" alt="React and Next.js Snippets - React and Next.js snippets with TypeScript | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <a href="https://www.producthunt.com/posts/react-and-next-js-snippets?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-react-and-next-js-snippets" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.png?post_id=331596&theme=dark&period=daily" alt="React and Next.js Snippets - React and Next.js snippets with TypeScript | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
-
 # Installation
 
 - Install the VSCode extension
@@ -100,7 +99,7 @@ React and Next.js Snippets with TypeScript support as well!🚀
 1.  `nssr` (Next.js Get Server Side Props)
 
     ```jsx
-    export const getServerSideProps = async context => {
+    export const getServerSideProps = async (context) => {
       return {
         props: {},
       };
@@ -110,7 +109,7 @@ React and Next.js Snippets with TypeScript support as well!🚀
 2.  `nssg` (Next.js Get Static Props)
 
     ```jsx
-    export const getStaticProps = async context => {
+    export const getStaticProps = async (context) => {
       return {
         props: {},
       };
@@ -144,8 +143,8 @@ React and Next.js Snippets with TypeScript support as well!🚀
 
     export default Document;
     ```
-    
-5. `ngsp` (Next.js Get Static Path Javascript)
+
+5.  `ngsp` (Next.js Get Static Path Javascript)
 
     ```jsx
     export const getStaticPaths = async () => {
@@ -153,15 +152,15 @@ React and Next.js Snippets with TypeScript support as well!🚀
           paths:[${1}],
           fallback:false
         };
-    }; 
- 
+    };
+    ```
 
 ### TypeScript
 
 1. `nssrt` (Next.js Get Server Side Props Typescript)
 
    ```tsx
-   export const getServerSideProps: GetServerSideProps = async context => {
+   export const getServerSideProps: GetServerSideProps = async (context) => {
      return { props: {} };
    };
    ```
@@ -169,7 +168,7 @@ React and Next.js Snippets with TypeScript support as well!🚀
 2. `nssgt` (Next.js Get Static Props Typescript)
 
    ```tsx
-   export const getStaticProps: getStaticProps = async context => {
+   export const getStaticProps: getStaticProps = async (context) => {
      return { props: {} };
    };
    ```
@@ -177,7 +176,7 @@ React and Next.js Snippets with TypeScript support as well!🚀
 3. `ngip` (Get Initial Props in Next.js)
 
    ```tsx
-   Page.getInitialProps = async context => {
+   Page.getInitialProps = async (context) => {
      return { props: {} };
    };
    ```
@@ -234,11 +233,11 @@ React and Next.js Snippets with TypeScript support as well!🚀
 
 8. `ngspt` (Next.js Get Static Path Typescript)
 
-    ```tsx
-    export const getStaticPaths: GetStaticPaths = async () => {
-      return {
-        paths:[${1}],
-        fallback:false
-      };
-    }
-    ```  
+   ```tsx
+   export const getStaticPaths: GetStaticPaths = async () => {
+     return {
+       paths:[${1}],
+       fallback:false
+     };
+   }
+   ```
