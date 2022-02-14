@@ -2,8 +2,8 @@
   "name": "react-nextjs-snippets",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/kr-anurag/react-nextjs-snippets.git",
-  "author": "Anurag <kr.anurag24@gmail.com>",
+  "repository": "https://github.com/avneesh0612/react-nextjs-snippets.git",
+  "author": "Avneesh Agarwal <avneeshagarwal0612@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@commitlint/cli": "^16.1.0",
@@ -17,7 +17,7 @@
   "scripts": {
     "prepare": "husky install",
     "pre-commit": "yarn run format && git add -A .",
-    "format": "prettier --write \"{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\"",
-    "format:check": "prettier --check \"{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\""
+    "format": "prettier --write \"packages/vscode/{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format:check": "prettier --check \"packages/vscode/{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\""
   }
 }
