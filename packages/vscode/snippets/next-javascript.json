@@ -8,7 +8,7 @@
       "  };",
       "};"
     ],
-    "description": "Next.js Get Server Side Props Typescript"
+    "description": "Next.js Get Server Side Props"
   },
 
   "nssg": {
@@ -20,7 +20,7 @@
       "  };",
       "};"
     ],
-    "description": "Next.js Get Static Props Typescript"
+    "description": "Next.js Get Static Props"
   },
   "ngsp": {
     "prefix": "ngsp",

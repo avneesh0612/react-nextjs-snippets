@@ -23,19 +23,35 @@
   "contributes": {
     "snippets": [
       {
-        "language": "typescriptreact",
-        "path": "./snippets/react-typescript.json"
+        "language": "javascript",
+        "path": "./snippets/react-javascript.json"
       },
       {
         "language": "javascriptreact",
         "path": "./snippets/react-javascript.json"
       },
       {
+        "language": "typescript",
+        "path": "./snippets/react-typescript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react-typescript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/next-javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/next-typescript.json"
+      },
+      {
         "language": "typescriptreact",
         "path": "./snippets/next-typescript.json"
       },
       {
-        "language": "javascriptreact",
+        "language": "javascript",
         "path": "./snippets/next-javascript.json"
       }
     ]
