@@ -16,3 +16,12 @@ React and Next.js Snippets with TypeScript support as well!🚀
 # Usage
 
 All the snippets and using guide is given in the [USING Guide](./packages/vscode/README.md)
+
+# Show your support
+
+Give a ⭐️ if this project helped you!
+
+# 📝 License
+
+Copyright © 2022 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
+This project is [GNU](https://github.com/avneesh0612/react-nextjs-snippets/blob/main/LICENSE) licensed.
