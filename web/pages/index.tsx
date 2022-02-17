@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Action from '../components/Action'
 import Hero from '../components/Hero'
+import Installation from '../components/Installation'
 import Working from '../components/Working'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Action />
       <Working />
+      <Installation />
     </div>
   )
 }
