@@ -4,7 +4,9 @@ import Hero from '../components/Hero'
 import Installation from '../components/Installation'
 import Working from '../components/Working'
 
-export default function Home() {
+import type { NextPage } from 'next'
+
+const Home: NextPage = () => {
   return (
     <div className="w-screen overflow-x-hidden">
       <div className="mx-auto max-w-6xl">
@@ -20,3 +22,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
