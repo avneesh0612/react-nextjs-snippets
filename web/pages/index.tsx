@@ -6,7 +6,7 @@ import Working from '../components/Working'
 
 export default function Home() {
   return (
-    <div className="w-screen overflow-y-hidden">
+    <div className="w-screen overflow-x-hidden">
       <div className="mx-auto max-w-6xl">
         <Head>
           <title>React &amp; Next.js snippets</title>
