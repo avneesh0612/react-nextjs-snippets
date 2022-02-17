@@ -5,7 +5,7 @@ import githubLogo from '../public/github.svg'
 
 export default function Navbar() {
   return (
-    <div className="absolute top-0 flex h-20 w-full items-center justify-between">
+    <div className="absolute top-0 flex h-20 w-full items-center justify-between p-7 xl:p-0">
       <div className="flex items-center">
         <Image src={logo} height={48} width={48} className="rounded-md" />
         <span className="ml-5 text-lg font-medium">

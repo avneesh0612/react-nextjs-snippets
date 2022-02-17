@@ -4,7 +4,7 @@ import actionGif from '../public/action.gif'
 
 export default function Action() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center text-center">
+    <div className="flex h-screen flex-col items-center justify-center p-7 text-center xl:p-0">
       <div className="z-10 text-5xl font-bold">
         Our extension in <span className="text-[#24D1DC]">action</span>
       </div>
