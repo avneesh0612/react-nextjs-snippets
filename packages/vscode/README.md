@@ -122,7 +122,7 @@
 4.  `ncdoc` (Next Custom Document)
 
     ```jsx
-    import Document, { Html, Main, NextScript } from "next/_document";
+    import Document, { Html, Main, NextScript } from "next/document";
     const Document: Document = () => {
       return (
         <Html lang="en">
@@ -209,7 +209,7 @@
 7. `ncdoct`(Next Custom Document Typescript)
 
    ```tsx
-   import Document, { Html, Main, NextScript } from "next/_document";
+   import Document, { Html, Main, NextScript } from "next/document";
    const Document: Document = () => {
      return (
        <Html lang="en">
