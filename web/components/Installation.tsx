@@ -1,6 +1,6 @@
 import React from 'react'
-import vscodelogo from '../public/vscode.png'
-import jetbrainslogo from '../public/jetbrains.png'
+import vscodelogo from '../public/vscode.svg'
+import jetbrainslogo from '../public/jetbrains.svg'
 import InstallCard from './InstallCard'
 
 export default function Installation() {
@@ -15,7 +15,7 @@ export default function Installation() {
         <InstallCard
           image={vscodelogo}
           enabled={true}
-          link="#"
+          link="https://marketplace.visualstudio.com/items?itemName=AvneeshAgarwal.react-nextjs-snippets"
           name="Visual Studio Code"
         />
         <InstallCard

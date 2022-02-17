@@ -7,7 +7,12 @@ export default function Navbar() {
   return (
     <div className="absolute top-0 flex h-20 w-full items-center justify-between p-7 xl:p-0">
       <div className="flex items-center">
-        <Image src={logo} height={48} width={48} className="rounded-md" />
+        <Image
+          src={logo}
+          height={48}
+          width={48}
+          className="cursor-pointer rounded-md"
+        />
         <span className="ml-5 text-lg font-medium">
           React &amp; Next.js Snippets
         </span>
@@ -15,6 +20,7 @@ export default function Navbar() {
       <a
         href="https://github.com/avneesh0612/react-nextjs-snippets"
         target="_blank"
+        className="cursor-pointer"
       >
         <Image src={githubLogo} height={30} width={30} />
       </a>
