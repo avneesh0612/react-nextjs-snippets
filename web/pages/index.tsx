@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Action from '../components/Action'
 import Hero from '../components/Hero'
+import Working from '../components/Working'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Action />
+      <Working />
     </div>
   )
 }
