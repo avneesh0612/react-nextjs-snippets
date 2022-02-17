@@ -5,3 +5,8 @@
 * {
   font-family: 'Inter', sans-serif;
 }
+
+body {
+  background-color: #121212;
+  color: #fff;
+}
