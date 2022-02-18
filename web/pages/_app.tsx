@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "This is a Visual Studio Code extension that gives you many React and Next.js snippets with typescript support so you don't have to rewrite the same code over and over again 😉",
           images: [
             {
-              url: '/assests/og.png',
+              url: '/og.png',
               width: 800,
               height: 420,
               alt: 'React & Next.js snippets',
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
       <Head>
-        <link rel="icon" type="image/png" href="/assests/logo.ico" />
+        <link rel="icon" type="image/png" href="/logo.ico" />
       </Head>
       <Component {...pageProps} />
     </>
