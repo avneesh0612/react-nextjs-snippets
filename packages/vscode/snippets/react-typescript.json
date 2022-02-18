@@ -1,6 +1,6 @@
 {
-  "rfcet": {
-    "prefix": "rfcet",
+  "rfct": {
+    "prefix": "rfct",
     "body": [
       "import React from \"react\";",
       "",
@@ -12,6 +12,26 @@
       "",
       "export default ${1:${TM_FILENAME_BASE}};"
     ],
-    "description": "React functional component Typescript"
+    "description": "Typescript: React functional component"
+  },
+  "ruet": {
+    "prefix": "ruet",
+    "body": ["useEffect(() => {", "\t$1", "}, []);"],
+    "description": "TypeScript: useEffect hook"
+  },
+  "rust": {
+    "prefix": "rust",
+    "body": ["const [${1}, set${1}] = useState(${2});"],
+    "description": "TypeScript: useState hook"
+  },
+  "ruct": {
+    "prefix": "ruct",
+    "body": ["const ${1} = useContext(${2});"],
+    "description": "TypeScript: useContext hook"
+  },
+  "rurt": {
+    "prefix": "rurt",
+    "body": ["const ${1} = useRef(${2});"],
+    "description": "TypeScript: useRef hook"
   }
 }
