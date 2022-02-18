@@ -1,0 +1,36 @@
+".source.ts, .source.tsx":
+  'TypeScript: React functional component':
+    'prefix': 'rfcet'
+    'body': """
+        import React from "react";
+        
+        interface Props {}
+        
+        function ${1:Component}({}: Props) {
+        return <div></div>;
+        }
+        
+        export default ${1:Component};
+    """
+  'TypeScript: useEffect hook':
+    'prefix': 'ruet'
+    'body': """
+        useEffect(() => {
+        \t${1}
+        }, []);
+    """
+  'TypeScript: useState hook':
+    'prefix': 'rust'
+    'body': """
+      const [${1:state}, set${1:State}] = useState(${2:initialValue});
+    """
+  'TypeScript: useContext hook':
+    'prefix': 'ruct'
+    'body': """
+        const ${1:value} = useContext(${2:myContext});
+    """
+  'TypeScript: useRef hook':
+    'prefix': 'rurt'
+    'body': """
+        const ${1:refContainer} = useRef(${2:initialValue});
+    """

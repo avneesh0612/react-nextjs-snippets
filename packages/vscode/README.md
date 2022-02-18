@@ -87,27 +87,27 @@
 
 2. `ruet` (useEffect hook)
 
-    ```tsx
-    useEffect(() => {}, []);
-    ```
+   ```tsx
+   useEffect(() => {}, []);
+   ```
 
 3. `rust` (useState hook)
 
-    ```tsx
-    const [state, setState] = useState(initialValue);
-    ```
+   ```tsx
+   const [state, setState] = useState(initialValue);
+   ```
 
 4. `ruct` (useContext hook)
 
-    ```tsx
-    const value = useContext(myContext);
-    ```
+   ```tsx
+   const value = useContext(myContext);
+   ```
 
 5. `rurt` (useRef hook)
 
-    ```tsx
-    const refContainer = useRef(initialValue);
-    ```
+   ```tsx
+   const refContainer = useRef(initialValue);
+   ```
 
 ## NextJS
 
@@ -258,4 +258,3 @@
 
    export default Document;
    ```
-

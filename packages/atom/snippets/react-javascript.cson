@@ -1,0 +1,52 @@
+".source.js, .source.jsx":
+  'JavaScript: Import React':
+    'prefix': 'rimr'
+    'body': """
+      import React from 'react';
+    """
+  'JavaScript: Import ReactDOM':
+    'prefix': 'rimrd'
+    'body': """
+      import ReactDOM from 'react-dom';
+    """
+  'JavaScript: Import React and useState':
+    'prefix': 'rimrs'
+    'body': """
+      import React, { useState } from 'react';
+    """
+  'JavaScript: Import React, useState and useEffect':
+    'prefix': 'rimrse'
+    'body': """
+      import React, { useState, useEffect} from 'react';
+    """
+  'JavaScript: React functional component':
+    'prefix': 'rfc'
+    'body': """
+      const ${1:Component} = () => {
+        return <div></div>
+      }
+      
+      export default ${1:Component}
+    """
+  'JavaScript: useEffect hook':
+    'prefix': 'rue'
+    'body': """
+      useEffect(() => {
+        $1
+      }, []);
+    """
+  'JavaScript: useState hook':
+    'prefix': 'rus'
+    'body': """
+      const [${1:state}, set${1:State}] = useState(${2:initialValue});
+    """
+  'JavaScript: useContext hook':
+    'prefix': 'ruc'
+    'body': """
+      const ${1:value} = useContext(${2:myContext});
+    """
+  'JavaScript: useRef hook':
+    'prefix': 'rur'
+    'body': """
+      const ${1:refContainer} = useRef(${2:intialValue});
+    """
