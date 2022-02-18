@@ -18,16 +18,22 @@ export default function Hero() {
           Use our VSCode and Jetbrains snippets extension
         </div>
         <div className="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2">
-          <Link href="#">
-            <a className="w-48 rounded-md bg-gradient-to-r from-[#000A67] to-[#004E92] py-3 text-xl">
-              Get started
-            </a>
-          </Link>
-          <Link href="#">
-            <a className="w-48 rounded-md bg-gradient-to-r from-[#232526] to-[#313334] py-3 text-xl">
-              View GitHub
-            </a>
-          </Link>
+          <a
+            href="https://marketplace.visualstudio.com/items?itemName=AvneeshAgarwal.react-nextjs-snippets"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-48 rounded-md bg-gradient-to-r from-[#000A67] to-[#004E92] py-3 text-xl"
+          >
+            Get started
+          </a>
+          <a
+            href="https://github.com/avneesh0612/react-nextjs-snippets"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-48 rounded-md bg-gradient-to-r from-[#232526] to-[#313334] py-3 text-xl"
+          >
+            View GitHub
+          </a>
         </div>
       </div>
     </div>

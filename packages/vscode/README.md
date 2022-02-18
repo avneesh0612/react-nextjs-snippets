@@ -146,7 +146,7 @@
 4.  `ncdoc` (Next.js custom document)
 
     ```jsx
-    import Document, { Html, Main, NextScript } from "next/_document";
+    import Document, { Html, Main, NextScript } from "next/document";
     const Document: Document = () => {
       return (
         <Html lang="en">
@@ -244,7 +244,7 @@
 8. `ncdoct`(Next.js custom document)
 
    ```tsx
-   import Document, { Html, Main, NextScript } from "next/_document";
+   import Document, { Html, Main, NextScript } from "next/document";
    const Document: Document = () => {
      return (
        <Html lang="en">

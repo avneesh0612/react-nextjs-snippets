@@ -49,7 +49,7 @@
   "ncdoc": {
     "prefix": "ncdoc",
     "body": [
-      "import { Html, Main, NextScript } from \"next/_document\";",
+      "import { Html, Main, NextScript } from \"next/document\";",
       "",
       "const Document = () => {",
       "  return (",

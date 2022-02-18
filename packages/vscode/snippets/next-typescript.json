@@ -98,7 +98,7 @@
   "ncdoct": {
     "prefix": "ncdoct",
     "body": [
-      "import Document, { Html, Main, NextScript } from \"next/_document\";",
+      "import Document, { Html, Main, NextScript } from \"next/document\";",
       "",
       "const Document: Document = () => {",
       "  return (",
