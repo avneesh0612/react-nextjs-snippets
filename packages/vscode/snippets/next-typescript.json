@@ -1,6 +1,6 @@
 {
-  "nssrt": {
-    "prefix": "nssrt",
+  "ngsst": {
+    "prefix": "ngsst",
     "body": [
       "export const getServerSideProps: GetServerSideProps = async context => {",
       "  return {",
@@ -8,11 +8,11 @@
       "  };",
       "};"
     ],
-    "description": "Next.js Get Server Side Props Typescript"
+    "description": "Typescript: Next.js get server side props"
   },
 
-  "nssgt": {
-    "prefix": "nssgt",
+  "ngspt": {
+    "prefix": "ngsp",
     "body": [
       "export const getStaticProps: getStaticProps = async context => {",
       "  return {",
@@ -20,7 +20,7 @@
       "  };",
       "};"
     ],
-    "description": "Next.js Get Static Props Typescript"
+    "description": "TypeScript: Next.js get static props"
   },
 
   "npt": {
@@ -37,11 +37,11 @@
       "",
       "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
     ],
-    "description": "Next.js Page Typescript"
+    "description": "Typescript: Next.js page"
   },
 
-  "ngip": {
-    "prefix": "ngip",
+  "ngipt": {
+    "prefix": "ngipt",
     "body": [
       "${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}.getInitialProps = async context => {",
       "  return {",
@@ -49,7 +49,7 @@
       "  };",
       "};"
     ],
-    "description": "Next.js Get Initial Props"
+    "description": "TypeScript: Next.js get initial props"
   },
 
   "nct": {
@@ -69,10 +69,10 @@
       "",
       "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
     ],
-    "description": "Next.js Component Typescript"
+    "description": "Typescript: Next.js component"
   },
-  "ngspt": {
-    "prefix": "ngspt",
+  "ngspat": {
+    "prefix": "ngspat",
     "body": [
       "export const getStaticPaths: GetStaticPaths = async () => {",
       "    return {",
@@ -81,7 +81,7 @@
       "    }",
       "}"
     ],
-    "description": "Next.js Get Static Path Typescript"
+    "description": "Typescript: Next.js get static path"
   },
   "ncappt": {
     "prefix": "ncappt",
@@ -92,7 +92,7 @@
       "",
       "export default MyApp;"
     ],
-    "description": "Next Custom App Typescript"
+    "description": "Typescript: Next.js custom app"
   },
 
   "ncdoct": {
@@ -113,6 +113,6 @@
       "",
       "export default Document;"
     ],
-    "description": "Next Custom Document Typescript"
+    "description": "Typescript: Next.js custom document"
   }
 }

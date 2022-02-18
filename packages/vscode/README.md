@@ -45,25 +45,25 @@
    export default Component;
    ```
 
-6. `rue` (React useEffect)
+6. `rue` (useEffect hook)
 
    ```jsx
    useEffect(() => {}, []);
    ```
 
-7. `rus` (React useState)
+7. `rus` (useState hook)
 
    ```jsx
    const [state, setState] = useState(initialValue);
    ```
 
-8. `ruc` (React useContext)
+8. `ruc` (useContext hook)
 
    ```jsx
    const value = useContext(myContext);
    ```
 
-9. `rur` (React useRef)
+9. `rur` (useRef hook)
 
    ```jsx
    const refContainer = useRef(initialValue);
@@ -71,7 +71,7 @@
 
 ### TypeScript
 
-1. `rfcet` (React functional component Typescript)
+1. `rfcet` (React functional component)
 
    ```tsx
    import React from "react";
@@ -85,11 +85,35 @@
    export default Component;
    ```
 
+2. `ruet` (useEffect hook)
+
+    ```tsx
+    useEffect(() => {}, []);
+    ```
+
+3. `rust` (useState hook)
+
+    ```tsx
+    const [state, setState] = useState(initialValue);
+    ```
+
+4. `ruct` (useContext hook)
+
+    ```tsx
+    const value = useContext(myContext);
+    ```
+
+5. `rurt` (useRef hook)
+
+    ```tsx
+    const refContainer = useRef(initialValue);
+    ```
+
 ## NextJS
 
 ### JavaScript
 
-1.  `nssr` (Next.js Get Server Side Props)
+1.  `ngss` (Next.js get server side props)
 
     ```jsx
     export const getServerSideProps = async (context) => {
@@ -99,7 +123,7 @@
     };
     ```
 
-2.  `nssg` (Next.js Get Static Props)
+2.  `ngsp` (Next.js get static props)
 
     ```jsx
     export const getStaticProps = async (context) => {
@@ -109,7 +133,7 @@
     };
     ```
 
-3.  `ncapp` (Next Custom App)
+3.  `ncapp` (Next.js custom app)
 
     ```jsx
     const MyApp = ({ Component, pageProps }) => {
@@ -119,7 +143,7 @@
     export default MyApp;
     ```
 
-4.  `ncdoc` (Next Custom Document)
+4.  `ncdoc` (Next.js custom document)
 
     ```jsx
     import Document, { Html, Main, NextScript } from "next/_document";
@@ -137,7 +161,7 @@
     export default Document;
     ```
 
-5.  `ngsp` (Next.js Get Static Path Javascript)
+5.  `ngspa` (Next.js get static path)
 
     ```jsx
     export const getStaticPaths = async () => {
@@ -150,7 +174,7 @@
 
 ### TypeScript
 
-1. `nssrt` (Next.js Get Server Side Props Typescript)
+1. `ngsst` (Next.js get server side props)
 
    ```tsx
    export const getServerSideProps: GetServerSideProps = async (context) => {
@@ -158,7 +182,7 @@
    };
    ```
 
-2. `nssgt` (Next.js Get Static Props Typescript)
+2. `ngspt` (Next.js get static props)
 
    ```tsx
    export const getStaticProps: getStaticProps = async (context) => {
@@ -166,15 +190,7 @@
    };
    ```
 
-3. `ngip` (Get Initial Props in Next.js)
-
-   ```tsx
-   Page.getInitialProps = async (context) => {
-     return { props: {} };
-   };
-   ```
-
-4. `npt` (Next.js Page Typescript)
+3. `npt` (Next.js page)
 
    ```tsx
    import type { NextPage } from "next";
@@ -184,7 +200,15 @@
    export default Page;
    ```
 
-5. `nct` (Next.js Component Typescript)
+4. `ngipt` (Next.js get initial props)
+
+   ```tsx
+   Page.getInitialProps = async (context) => {
+     return { props: {} };
+   };
+   ```
+
+5. `nct` (Next.js component)
 
    ```tsx
    import type { NextComponentType, NextPageContext } from "next";
@@ -197,7 +221,18 @@
    export default Component;
    ```
 
-6. `ncappt` (Next Custom App Typescript)
+6. `ngspat` (Next.js Get Static Path Typescript)
+
+   ```tsx
+   export const getStaticPaths: GetStaticPaths = async () => {
+     return {
+       paths:[${1}],
+       fallback:false
+     };
+   }
+   ```
+
+7. `ncappt` (Next.js custom app)
 
    ```tsx
    const MyApp = ({ Component, pageProps }) => {
@@ -206,7 +241,7 @@
    export default MyApp;
    ```
 
-7. `ncdoct`(Next Custom Document Typescript)
+8. `ncdoct`(Next.js custom document)
 
    ```tsx
    import Document, { Html, Main, NextScript } from "next/_document";
@@ -224,13 +259,3 @@
    export default Document;
    ```
 
-8. `ngspt` (Next.js Get Static Path Typescript)
-
-   ```tsx
-   export const getStaticPaths: GetStaticPaths = async () => {
-     return {
-       paths:[${1}],
-       fallback:false
-     };
-   }
-   ```

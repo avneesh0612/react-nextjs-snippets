@@ -1,6 +1,6 @@
 {
-  "nssr": {
-    "prefix": "nssr",
+  "ngss": {
+    "prefix": "ngss",
     "body": [
       "export const getServerSideProps = async context => {",
       "  return {",
@@ -8,11 +8,11 @@
       "  };",
       "};"
     ],
-    "description": "Next.js Get Server Side Props"
+    "description": "JavaScript: Next.js get server side props"
   },
 
-  "nssg": {
-    "prefix": "nssg",
+  "ngsp": {
+    "prefix": "ngsp",
     "body": [
       "export const getStaticProps = async context => {",
       "  return {",
@@ -20,10 +20,10 @@
       "  };",
       "};"
     ],
-    "description": "Next.js Get Static Props"
+    "description": "JavaScript: Next.js get static props"
   },
-  "ngsp": {
-    "prefix": "ngsp",
+  "ngspa": {
+    "prefix": "ngspa",
     "body": [
       "export const getStaticPaths = async () => {",
       "    return {",
@@ -32,7 +32,7 @@
       "    }",
       "}"
     ],
-    "description": "Next.js Get Static Path Javascript"
+    "description": "JavaScript: Next.js get static path"
   },
   "ncapp": {
     "prefix": "ncapp",
@@ -43,7 +43,7 @@
       "",
       "export default MyApp;"
     ],
-    "description": "Next Custom App"
+    "description": "JavaScript: Next.js custom app"
   },
 
   "ncdoc": {
@@ -64,6 +64,6 @@
       "",
       "export default Document;"
     ],
-    "description": "Next Custom Document"
+    "description": "JavaScript: Next.js custom document"
   }
 }

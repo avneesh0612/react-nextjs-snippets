@@ -1,25 +1,25 @@
 {
-  "Import React": {
+  "rimr": {
     "prefix": "rimr",
     "body": ["import React from 'react';"],
-    "description": "Import React"
+    "description": "JavaScript: Import React"
   },
-  "Import ReactDOM": {
+  "rimrd": {
     "prefix": "rimrd",
     "body": ["import ReactDOM from 'react-dom';"],
-    "description": "Import ReactDOM"
+    "description": "JavaScript: Import ReactDOM"
   },
-  "Import React and useState": {
+  "rimrs": {
     "prefix": "rimrs",
     "body": ["import React, { useState } from 'react';"],
-    "description": "Import React and useState"
+    "description": "JavaScript: Import React and useState"
   },
-  "Import React, useState and useEffect": {
+  "rimrse": {
     "prefix": "rimrse",
     "body": ["import React, { useState, useEffect} from 'react';"],
-    "description": "Import React, useState and useEffect"
+    "description": "JavaScript: Import React, useState and useEffect"
   },
-  "React functional component": {
+  "rfc": {
     "prefix": "rfc",
     "body": [
       "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}} = () => {",
@@ -27,27 +27,26 @@
       "};",
       "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}};"
     ],
-    "description": "React functional component"
+    "description": "JavaScript: React functional component"
   },
-
-  "React useEffect": {
+  "rue": {
     "prefix": "rue",
     "body": ["useEffect(() => {", "\t$1", "}, []);"],
-    "description": "useEffect"
+    "description": "JavaScript: useEffect hook"
   },
-  "React useState": {
+  "rus": {
     "prefix": "rus",
     "body": ["const [${1}, set${1}] = useState(${2});"],
-    "description": "useState"
+    "description": "JavaScript: useState hook"
   },
-  "React useContext": {
+  "ruc": {
     "prefix": "ruc",
     "body": ["const ${1} = useContext(${2});"],
-    "description": "useContext"
+    "description": "JavaScript: useContext hook"
   },
-  "React useRef": {
+  "rur": {
     "prefix": "rur",
     "body": ["const ${1} = useRef(${2});"],
-    "description": "React useRef"
+    "description": "JavaScript: useRef hook"
   }
 }
