@@ -1,4 +1,32 @@
 {
+  "rimr": {
+    "prefix": "rimr",
+    "body": [
+      "import React from 'react';"
+    ],
+    "description": "TypeScript: import react"
+  },
+  "rimrd": {
+    "prefix": "rimrd",
+    "body": [
+      "import ReactDOM from 'react-dom';"
+    ],
+    "description": "TypeScript: import React DOM"
+  },
+  "rimrs": {
+    "prefix": "rimrs",
+    "body": [
+      "import React, { useState } from 'react';"
+    ],
+    "description": "Typescript: Import React and useState"
+  },
+  "rimrse": {
+    "prefix": "rimrse",
+    "body": [
+      "import React, { useState, useEffect} from 'react';"
+    ],
+    "description": "Typescript: Import React, useState and useEffect"
+  },
   "ngss": {
     "prefix": "ngss",
     "body": [
@@ -10,7 +38,6 @@
     ],
     "description": "JavaScript: Next.js get server side props"
   },
-
   "ngsp": {
     "prefix": "ngsp",
     "body": [
@@ -45,7 +72,6 @@
     ],
     "description": "JavaScript: Next.js custom app"
   },
-
   "ncdoc": {
     "prefix": "ncdoc",
     "body": [
