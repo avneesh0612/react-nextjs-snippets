@@ -9,7 +9,7 @@ React and Next.js Snippets with TypeScript support as well!🚀
 
 # Installation
 
-- Install the VSCode extension
+- Install the [VSCode extension](https://marketplace.visualstudio.com/items?itemName=AvneeshAgarwal.react-nextjs-snippets)
 - Reload VSCode
 - Snippets are ready 🎉
 
