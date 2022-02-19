@@ -10,7 +10,6 @@
     ],
     "description": "JavaScript: Next.js get server side props"
   },
-
   "ngsp": {
     "prefix": "ngsp",
     "body": [
@@ -45,7 +44,6 @@
     ],
     "description": "JavaScript: Next.js custom app"
   },
-
   "ncdoc": {
     "prefix": "ncdoc",
     "body": [
