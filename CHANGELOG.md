@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.4.0...v1.5.0) (2022-02-20)
+
+
+### Features
+
+* add atom on the website ([f4a9247](https://github.com/avneesh0612/react-nextjs-snippets/commit/f4a9247a3d0aed0c836683b694682beadf0f1a29))
+
+
+
 # [1.4.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.0.1...v1.4.0) (2022-02-19)
 
 
@@ -44,15 +53,6 @@
 ### Features
 
 * add ProductHunt embed in Readme ([c42e2b7](https://github.com/avneesh0612/react-nextjs-snippets/commit/c42e2b716a2c5d034636eae6727631378daea01b))
-
-
-
-## [1.1.1](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.1.0...v1.1.1) (2022-02-13)
-
-
-### Bug Fixes
-
-* update name everywhere ([e1d287d](https://github.com/avneesh0612/react-nextjs-snippets/commit/e1d287da4dc55304d9d805e3e002574c92109c74))
 
 
 
