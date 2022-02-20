@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { JetBrainsIcon, VsCodeIcon } from './Icons'
+import { AtomIcon, VsCodeIcon } from './Icons'
 import InstallCard from './InstallCard'
 
 const Installation: FC = () => {
@@ -13,15 +13,15 @@ const Installation: FC = () => {
       <div className="mt-28 grid w-full max-w-4xl grid-cols-1 gap-10">
         <InstallCard
           Icon={VsCodeIcon}
-          enabled={true}
           link="https://marketplace.visualstudio.com/items?itemName=AvneeshAgarwal.react-nextjs-snippets"
           name="Visual Studio Code"
+          enabled
         />
         <InstallCard
-          Icon={JetBrainsIcon}
-          enabled={false}
-          link="#"
-          name="Jetbrains IDE"
+          Icon={AtomIcon}
+          link="https://atom.io/packages/react-nextjs-snippets"
+          name="Atom text editor"
+          enabled
         />
       </div>
     </div>

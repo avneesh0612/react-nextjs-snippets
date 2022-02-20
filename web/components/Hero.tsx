@@ -15,7 +15,7 @@ export default function Hero() {
           <span className="text-[#24D1DC]">Next.js</span> code
         </div>
         <div className="mt-7 text-3xl leading-normal text-gray-400">
-          Use our VSCode and Jetbrains snippets extension
+          Use our VSCode and Atom snippets extension
         </div>
         <div className="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2">
           <a
