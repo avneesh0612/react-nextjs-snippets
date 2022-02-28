@@ -8,7 +8,7 @@ import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
-    <div className="w-screen overflow-x-hidden">
+    <div className="w-screen overflow-x-hidden bg-[#121212] text-white min-h-screen">
       <div className="mx-auto max-w-6xl">
         <Head>
           <title>React &amp; Next.js snippets</title>
