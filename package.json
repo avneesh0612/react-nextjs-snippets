@@ -19,5 +19,44 @@
     "pre-commit": "yarn run format && git add -A .",
     "format": "prettier --write \"packages/vscode/{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\"",
     "format:check": "prettier --check \"packages/vscode/{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./packages/vscode/snippets/react-javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./packages/vscode/snippets/react-javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./packages/vscode/snippets/react-typescript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./packages/vscode/snippets/react-typescript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./packages/vscode/snippets/next-javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./packages/vscode/snippets/next-typescript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./packages/vscode/snippets/next-typescript.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./packages/vscode/snippets/next-javascript.json"
+      }
+    ]
   }
 }

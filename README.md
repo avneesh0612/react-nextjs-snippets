@@ -13,6 +13,37 @@ React and Next.js Snippets with TypeScript support as well!🚀
 - Reload VSCode
 - Snippets are ready 🎉
 
+# Vim Installation
+
+These snippets should work with the following snippet plugins:
+
+- [vim-vsnip](https://github.com/hrsh7th/vim-vsnip)
+- [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [coc-snippets](https://github.com/neoclide/coc-snippets)
+
+Please set up the aforementioned plugins before using this snippet plugin. You
+might need to explicitly enable loading of vscode snippet plugins (like in the case of LuaSnip).
+
+## Installing the plugin
+
+With [packer](https://github.com/wbthomason/packer.nvim) -
+
+```
+use "avneesh0612/react-nextjs-snippets/"
+```
+
+With [vim-plug](https://github.com/junegunn/vim-plug)
+
+```
+Plug "avneesh0612/react-nextjs-snippets"
+```
+
+If you are using `coc-snippets`, you can simply run the following command -
+
+```
+:CocInstall https://github.com/avneesh0612/react-nextjs-snippets@main
+```
+
 # Usage
 
 All the snippets and using guide is given in the [USING Guide](./packages/vscode/README.md)
