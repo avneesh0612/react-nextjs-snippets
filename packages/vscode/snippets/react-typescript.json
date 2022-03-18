@@ -26,7 +26,7 @@
       "",
       "interface Props {}",
       "",
-      "function ${1:${TM_FILENAME_BASE}}({}: Props) {",
+      "function ${1:${TM_FILENAME_BASE}}({}: Props): JSX.Element {",
       "  return <div></div>;",
       "}",
       "",
