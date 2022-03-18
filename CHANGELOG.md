@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.5.0...v1.6.0) (2022-03-18)
+
+
+### Features
+
+* **react-ts:** add  type to functional component ([4fde124](https://github.com/avneesh0612/react-nextjs-snippets/commit/4fde124b65be803d51d998f6876ac95a4f8edc6d))
+
+
+
 # [1.5.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.4.0...v1.5.0) (2022-02-20)
 
 
@@ -44,15 +53,6 @@
 ### Bug Fixes
 
 * use png instead of svg as vscode marketplace doesn't support png ([40c39a6](https://github.com/avneesh0612/react-nextjs-snippets/commit/40c39a6e4d3c08fe8a6f24fc857ffdd93eafd383))
-
-
-
-# [1.2.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.1.1...v1.2.0) (2022-02-14)
-
-
-### Features
-
-* add ProductHunt embed in Readme ([c42e2b7](https://github.com/avneesh0612/react-nextjs-snippets/commit/c42e2b716a2c5d034636eae6727631378daea01b))
 
 
 
