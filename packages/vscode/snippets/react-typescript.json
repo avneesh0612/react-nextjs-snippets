@@ -24,9 +24,9 @@
     "body": [
       "import React from \"react\";",
       "",
-      "interface Props {}",
+      "interface I${1:${TM_FILENAME_BASE}}Props {}",
       "",
-      "function ${1:${TM_FILENAME_BASE}}({}: Props) {",
+      "function ${1:${TM_FILENAME_BASE}}({}: I${1:${TM_FILENAME_BASE}}Props): JSX.Element {",
       "  return <div></div>;",
       "}",
       "",
