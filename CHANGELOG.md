@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.6.0...v1.7.0) (2022-04-25)
+
+
+### Features
+
+* add pr and issue templates ([#54](https://github.com/avneesh0612/react-nextjs-snippets/issues/54)) ([3e9ce5c](https://github.com/avneesh0612/react-nextjs-snippets/commit/3e9ce5c7fa51c91c6682a03056ea2b2420e50dc6))
+
+
+
 # [1.6.0](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.5.0...v1.6.0) (2022-03-18)
 
 
@@ -44,15 +53,6 @@
 ### Bug Fixes
 
 * package json and prettier ([0cafde1](https://github.com/avneesh0612/react-nextjs-snippets/commit/0cafde1b2af1035676a0bd508fa7dc06bc117952))
-
-
-
-## [1.2.1](https://github.com/avneesh0612/react-nextjs-snippets/compare/v1.2.0...v1.2.1) (2022-02-14)
-
-
-### Bug Fixes
-
-* use png instead of svg as vscode marketplace doesn't support png ([40c39a6](https://github.com/avneesh0612/react-nextjs-snippets/commit/40c39a6e4d3c08fe8a6f24fc857ffdd93eafd383))
 
 
 
