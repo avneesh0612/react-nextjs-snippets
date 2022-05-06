@@ -56,3 +56,25 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2022 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
 This project is [GNU](https://github.com/avneesh0612/react-nextjs-snippets/blob/main/LICENSE) licensed.
+
+
+## 🦸‍♂️ Authors
+
+### Anurag
+
+- Website: https://www.anurag.tech/
+- Twitter: [@imanuraglol](https://twitter.com/imanuraglol)
+- Discord: `Anurag#9186`
+
+### Avneesh Agarwal
+
+- Website: https://www.avneesh.tech/
+- Twitter: [@avneesh0612](https://twitter.com/avneesh0612)
+- Github: [@avneesh0612](https://github.com/avneesh0612)
+- LinkedIn: [@avneesh0612](https://www.linkedin.com/in/avneesh0612)
+
+### Kira
+
+- Website: https://kiradev.co
+- Twitter: [@kira_272921](https://twitter.com/kira_272921)
+- Discord: https://links.kiradev.co/discord
