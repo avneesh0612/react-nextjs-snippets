@@ -24,9 +24,7 @@
     "body": [
       "import React from 'react'",
       "",
-      "interface ${TM_FILENAME_BASE}Props {",
-      "$1",
-      "}",
+      "interface ${TM_FILENAME_BASE}Props {}",
       "",
       "export const $TM_FILENAME_BASE: React.FC<${TM_FILENAME_BASE}Props> = ({$2}) => {",
       "\t\treturn ($3);",
