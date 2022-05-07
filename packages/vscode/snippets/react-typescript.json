@@ -22,15 +22,13 @@
   "rfct": {
     "prefix": "rfct",
     "body": [
-      "import React from \"react\";",
+      "import type { FC } from 'react'",
       "",
-      "interface I${1:${TM_FILENAME_BASE}}Props {}",
+      "interface ${TM_FILENAME_BASE}Props {}",
       "",
-      "function ${1:${TM_FILENAME_BASE}}({}: I${1:${TM_FILENAME_BASE}}Props): JSX.Element {",
-      "  return <div></div>;",
-      "}",
-      "",
-      "export default ${1:${TM_FILENAME_BASE}};"
+      "export const $TM_FILENAME_BASE: FC<${TM_FILENAME_BASE}Props> = ({$2}) => {",
+      "\t\treturn ($3);",
+      "}"
     ],
     "description": "Typescript: React functional component"
   },
