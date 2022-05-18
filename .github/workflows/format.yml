@@ -14,7 +14,7 @@ jobs:
           node-version: 16.2.0
 
       - name: Cache Node.js modules
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ~/.yarn
           key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
