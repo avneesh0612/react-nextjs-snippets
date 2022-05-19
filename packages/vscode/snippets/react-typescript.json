@@ -49,7 +49,11 @@
   },
   "rucbt": {
     "prefix": "rucbt",
-    "body": ["const handleCallback = useCallback(() => {", "\t$1", "}, []);"],
+    "body": [
+      "const handleCallback = useCallback(() => {",
+      "\t$1",
+      "}, [${2}]);"
+    ],
     "description": "TypeScript: useCallback hook"
   },
   "rurt": {

@@ -46,7 +46,11 @@
   },
   "rucb": {
     "prefix": "rucb",
-    "body": ["const handleCallback = useCallback(() => {", "\t$1", "}, []);"],
+    "body": [
+      "const handleCallback = useCallback(() => {",
+      "\t$1",
+      "}, [${2}]);"
+    ],
     "description": "JavaScript: useCallback hook"
   },
   "rur": {
