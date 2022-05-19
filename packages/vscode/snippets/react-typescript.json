@@ -47,6 +47,11 @@
     "body": ["const ${1} = useContext(${2});"],
     "description": "TypeScript: useContext hook"
   },
+  "rucbt": {
+    "prefix": "rucbt",
+    "body": ["const handleCallback = useCallback(() => {", "\t$1", "}, []);"],
+    "description": "TypeScript: useCallback hook"
+  },
   "rurt": {
     "prefix": "rurt",
     "body": ["const ${1} = useRef(${2});"],
