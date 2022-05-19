@@ -63,11 +63,17 @@
    const value = useContext(myContext);
    ```
 
-9. `rur` (useRef hook)
+9. `rucb` (useCallback hook)
 
    ```jsx
-   const refContainer = useRef(initialValue);
+   const handleCallback = useCallback(() => {}, []);
    ```
+
+10. `rur` (useRef hook)
+
+    ```jsx
+    const refContainer = useRef(initialValue);
+    ```
 
 ### TypeScript
 
@@ -103,7 +109,13 @@
    const value = useContext(myContext);
    ```
 
-5. `rurt` (useRef hook)
+5. `rucbt` (useCallback hook)
+
+   ```jsx
+   const handleCallback = useCallback(() => {}, []);
+   ```
+
+6. `rurt` (useRef hook)
 
    ```tsx
    const refContainer = useRef(initialValue);

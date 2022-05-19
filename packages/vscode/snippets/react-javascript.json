@@ -44,6 +44,15 @@
     "body": ["const ${1} = useContext(${2});"],
     "description": "JavaScript: useContext hook"
   },
+  "rucb": {
+    "prefix": "rucb",
+    "body": [
+      "const handleCallback = useCallback(() => {",
+      "\t$1",
+      "}, [${2}]);"
+    ],
+    "description": "JavaScript: useCallback hook"
+  },
   "rur": {
     "prefix": "rur",
     "body": ["const ${1} = useRef(${2});"],
