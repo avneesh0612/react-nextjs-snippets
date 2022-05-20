@@ -1,4 +1,4 @@
-# React and Next.js Snippets README
+# React and Next.js Snippets
 
 React and Next.js Snippets with TypeScript support as well!🚀
 
