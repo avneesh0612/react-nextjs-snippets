@@ -51,25 +51,31 @@
    useEffect(() => {}, []);
    ```
 
-7. `rus` (useState hook)
+7. `rum` (useMemo hook)
+
+   ```jsx
+   useMemo(() => {}, []);
+   ```
+
+8. `rus` (useState hook)
 
    ```jsx
    const [state, setState] = useState(initialValue);
    ```
 
-8. `ruc` (useContext hook)
+9. `ruc` (useContext hook)
 
    ```jsx
    const value = useContext(myContext);
    ```
 
-9. `rucb` (useCallback hook)
+10. `rucb` (useCallback hook)
 
-   ```jsx
-   const handleCallback = useCallback(() => {}, []);
-   ```
+```jsx
+const handleCallback = useCallback(() => {}, []);
+```
 
-10. `rur` (useRef hook)
+11. `rur` (useRef hook)
 
     ```jsx
     const refContainer = useRef(initialValue);
@@ -80,13 +86,13 @@
 1. `rfcet` (React functional component)
 
    ```tsx
-   import React from "react";
+   import type { FC } from "react";
 
    interface Props {}
 
-   function Component({}: Props) {
+   const Component: FC<Props> = () => {
      return <div></div>;
-   }
+   };
 
    export default Component;
    ```
@@ -97,25 +103,31 @@
    useEffect(() => {}, []);
    ```
 
-3. `rust` (useState hook)
+3. `rumt` (useMemo hook)
+
+   ```tsx
+   useMemo<>(() => {}, []);
+   ```
+
+4. `rust` (useState hook)
 
    ```tsx
    const [state, setState] = useState(initialValue);
    ```
 
-4. `ruct` (useContext hook)
+5. `ruct` (useContext hook)
 
    ```tsx
    const value = useContext(myContext);
    ```
 
-5. `rucbt` (useCallback hook)
+6. `rucbt` (useCallback hook)
 
    ```jsx
    const handleCallback = useCallback(() => {}, []);
    ```
 
-6. `rurt` (useRef hook)
+7. `rurt` (useRef hook)
 
    ```tsx
    const refContainer = useRef(initialValue);

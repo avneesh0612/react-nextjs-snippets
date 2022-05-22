@@ -34,6 +34,11 @@
     "body": ["useEffect(() => {", "\t$1", "}, []);"],
     "description": "JavaScript: useEffect hook"
   },
+  "rum": {
+    "prefix": "rum",
+    "body": ["useMemo(() => {", "\t$1", "}, []);"],
+    "description": "JavaScript: useMemo hook"
+  },
   "rus": {
     "prefix": "rus",
     "body": ["const [${1}, set${1}] = useState(${2});"],

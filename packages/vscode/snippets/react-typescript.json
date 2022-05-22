@@ -22,13 +22,14 @@
   "rfct": {
     "prefix": "rfct",
     "body": [
-      "import type { FC } from 'react'",
+      "import type { FC } from 'react';",
       "",
       "interface ${TM_FILENAME_BASE}Props {}",
       "",
-      "export const $TM_FILENAME_BASE: FC<${TM_FILENAME_BASE}Props> = ({$2}) => {",
+      "const $TM_FILENAME_BASE: FC<${TM_FILENAME_BASE}Props> = ({$2}) => {",
       "\t\treturn ($3);",
-      "}"
+      "}",
+      "export default $TM_FILENAME_BASE;"
     ],
     "description": "Typescript: React functional component"
   },
@@ -36,6 +37,11 @@
     "prefix": "ruet",
     "body": ["useEffect(() => {", "\t$1", "}, []);"],
     "description": "TypeScript: useEffect hook"
+  },
+  "rumt": {
+    "prefix": "rumt",
+    "body": ["useMemo<${1}>(() => {", "\t$2", "}, []);"],
+    "description": "Typescript: useMemo hook"
   },
   "rust": {
     "prefix": "rust",
