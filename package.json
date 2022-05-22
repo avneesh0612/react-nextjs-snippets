@@ -16,7 +16,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "pre-commit": "yarn run format && git add -A .",
+    "pre-commit": "yarn run generateReadme && yarn run format && git add -A .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "generateReadme": "node ./src/automation/scripts/generateReadme.js"
