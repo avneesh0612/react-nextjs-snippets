@@ -23,15 +23,6 @@ React and Next.js Snippets currently has a total of 38 snippets.
 | `ruc`    | JavaScript: useContext hook                      | JavaScript |
 | `rucb`   | JavaScript: useCallback hook                     | JavaScript |
 | `rur`    | JavaScript: useRef hook                          | JavaScript |
-| `ngsst`  | Typescript: Next.js get server side props        | Typescript |
-| `ngsp`   | TypeScript: Next.js get static props             | TypeScript |
-| `npt`    | Typescript: Next.js page                         | Typescript |
-| `ngipt`  | TypeScript: Next.js get initial props            | TypeScript |
-| `nct`    | Typescript: Next.js component                    | Typescript |
-| `ngspat` | Typescript: Next.js get static path              | Typescript |
-| `ncappt` | Typescript: Next.js custom app                   | Typescript |
-| `ncdoct` | Typescript: Next.js custom document              | Typescript |
-| `ngapit` | Typescript: Next.js API Route                    | Typescript |
 | `ngss`   | JavaScript: Next.js get server side props        | JavaScript |
 | `ngsp`   | JavaScript: Next.js get static props             | JavaScript |
 | `ngspa`  | JavaScript: Next.js get static path              | JavaScript |
@@ -49,6 +40,15 @@ React and Next.js Snippets currently has a total of 38 snippets.
 | `ruct`   | TypeScript: useContext hook                      | TypeScript |
 | `rucbt`  | TypeScript: useCallback hook                     | TypeScript |
 | `rurt`   | TypeScript: useRef hook                          | TypeScript |
+| `ngsst`  | Typescript: Next.js get server side props        | Typescript |
+| `ngsp`   | TypeScript: Next.js get static props             | TypeScript |
+| `npt`    | Typescript: Next.js page                         | Typescript |
+| `ngipt`  | TypeScript: Next.js get initial props            | TypeScript |
+| `nct`    | Typescript: Next.js component                    | Typescript |
+| `ngspat` | Typescript: Next.js get static path              | Typescript |
+| `ncappt` | Typescript: Next.js custom app                   | Typescript |
+| `ncdoct` | Typescript: Next.js custom document              | Typescript |
+| `ngapit` | Typescript: Next.js API Route                    | Typescript |
 
 ## ⭐ Show your support
 

@@ -8,7 +8,7 @@
 
 # 🌈 Table of Snippets
 
-React and Next.js Snippets currently has a total of 27 snippets.
+React and Next.js Snippets currently has a total of 38 snippets.
 
 | Prefix   | Description                                      | Language   |
 | -------- | ------------------------------------------------ | ---------- |
@@ -23,6 +23,23 @@ React and Next.js Snippets currently has a total of 27 snippets.
 | `ruc`    | JavaScript: useContext hook                      | JavaScript |
 | `rucb`   | JavaScript: useCallback hook                     | JavaScript |
 | `rur`    | JavaScript: useRef hook                          | JavaScript |
+| `ngss`   | JavaScript: Next.js get server side props        | JavaScript |
+| `ngsp`   | JavaScript: Next.js get static props             | JavaScript |
+| `ngspa`  | JavaScript: Next.js get static path              | JavaScript |
+| `ncapp`  | JavaScript: Next.js custom app                   | JavaScript |
+| `ncdoc`  | JavaScript: Next.js custom document              | JavaScript |
+| `ngapi`  | Javascript: Next.js API Route                    | Javascript |
+| `rimr`   | TypeScript: import react                         | TypeScript |
+| `rimrd`  | TypeScript: import React DOM                     | TypeScript |
+| `rimrs`  | Typescript: Import React and useState            | Typescript |
+| `rimrse` | Typescript: Import React, useState and useEffect | Typescript |
+| `rfct`   | Typescript: React functional component           | Typescript |
+| `ruet`   | TypeScript: useEffect hook                       | TypeScript |
+| `rumt`   | Typescript: useMemo hook                         | Typescript |
+| `rust`   | TypeScript: useState hook                        | TypeScript |
+| `ruct`   | TypeScript: useContext hook                      | TypeScript |
+| `rucbt`  | TypeScript: useCallback hook                     | TypeScript |
+| `rurt`   | TypeScript: useRef hook                          | TypeScript |
 | `ngsst`  | Typescript: Next.js get server side props        | Typescript |
 | `ngsp`   | TypeScript: Next.js get static props             | TypeScript |
 | `npt`    | Typescript: Next.js page                         | Typescript |
@@ -32,29 +49,6 @@ React and Next.js Snippets currently has a total of 27 snippets.
 | `ncappt` | Typescript: Next.js custom app                   | Typescript |
 | `ncdoct` | Typescript: Next.js custom document              | Typescript |
 | `ngapit` | Typescript: Next.js API Route                    | Typescript |
-| `ngss`   | JavaScript: Next.js get server side props        | JavaScript |
-| `ngsp`   | JavaScript: Next.js get static props             | JavaScript |
-| `ngspa`  | JavaScript: Next.js get static path              | JavaScript |
-| `ncapp`  | JavaScript: Next.js custom app                   | JavaScript |
-| `ncdoc`  | JavaScript: Next.js custom document              | JavaScript |
-| `ngapi`  | Javascript: Next.js API Route                    | Javascript |
-
-## ⭐ Show your support
-
-Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-Copyright © 2022 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
-This project is [GNU](https://github.com/buidler-hub/react-nextjs-snippets/blob/main/LICENSE) licensed.
-React, useState and useEffect | Typescript |
-| `rfct` | Typescript: React functional component | Typescript |
-| `ruet` | TypeScript: useEffect hook | TypeScript |
-| `rumt` | Typescript: useMemo hook | Typescript |
-| `rust` | TypeScript: useState hook | TypeScript |
-| `ruct` | TypeScript: useContext hook | TypeScript |
-| `rucbt` | TypeScript: useCallback hook | TypeScript |
-| `rurt` | TypeScript: useRef hook | TypeScript |
 
 ## ⭐ Show your support
 

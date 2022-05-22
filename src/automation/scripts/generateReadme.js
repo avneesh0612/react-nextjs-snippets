@@ -19,7 +19,6 @@ fs.readdir(snippetsFolder, function (err, files) {
 
       // Adding the snippet to the final array
       snippetArray.map((snippet) => {
-        console.log(snippet);
         finalSnippets.push([
           `\`${snippet.prefix}\``,
           snippet.description.split("|")[0],
