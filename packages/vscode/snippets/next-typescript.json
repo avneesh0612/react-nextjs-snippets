@@ -14,7 +14,7 @@
   "ngspt": {
     "prefix": "ngsp",
     "body": [
-      "export const getStaticProps: getStaticProps = async context => {",
+      "export const getStaticProps: GetStaticProps = async context => {",
       "  return {",
       "    props: {},",
       "  };",
