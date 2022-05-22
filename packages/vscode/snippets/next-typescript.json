@@ -116,7 +116,7 @@
     "description": "Typescript: Next.js custom document"
   },
   "ngapit": {
-    "prefix": "napit",
+    "prefix": "ngapit",
     "body": [
       "import type { NextApiRequest, NextApiResponse } from \"next\";",
       "",
