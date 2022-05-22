@@ -196,6 +196,16 @@ const handleCallback = useCallback(() => {}, []);
     };
     ```
 
+6.  `ngapi` (Next.js API Route)
+
+    ```jsx
+    const handler = (req, res) => {
+      res.status(200).json({ name: "John Doe" });
+    };
+
+    export default handler;
+    ```
+
 ### TypeScript
 
 1. `ngsst` (Next.js get server side props)
@@ -281,4 +291,20 @@ const handleCallback = useCallback(() => {}, []);
    };
 
    export default Document;
+   ```
+
+9. `ngapit` (TypeScript: Next.js API Route)
+
+   ```tsx
+   import type { NextApiRequest, NextApiResponse } from "next";
+
+   type Data = {
+     name: string;
+   };
+
+   const handler = (req: NextApiRequest, res: NextApiResponse<Data>) => {
+     res.status(200).json({ name: "John Doe" });
+   };
+
+   export default handler;
    ```

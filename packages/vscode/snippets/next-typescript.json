@@ -114,5 +114,22 @@
       "export default Document;"
     ],
     "description": "Typescript: Next.js custom document"
+  },
+  "ngapit": {
+    "prefix": "napit",
+    "body": [
+      "import type { NextApiRequest, NextApiResponse } from \"next\";",
+      "",
+      "type Data = {",
+      "  name: string;",
+      "};",
+      "",
+      "const handler = (req: NextApiRequest, res: NextApiResponse<Data>) => {",
+      "  res.status(200).json({ name: \"John Doe\" });",
+      "};",
+      "",
+      "export default handler;"
+    ],
+    "description": "Typescript: Next.js API Route"
   }
 }
