@@ -64,7 +64,7 @@
     ],
     "description": "JavaScript: Next.js custom document"
   },
-  "napi": {
+  "ngapi": {
     "prefix": "ngapi",
     "body": [
       "const handler = (req, res) => {",
