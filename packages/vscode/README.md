@@ -209,7 +209,7 @@ const handleCallback = useCallback(() => {}, []);
 2. `ngspt` (Next.js get static props)
 
    ```tsx
-   export const getStaticProps: getStaticProps = async (context) => {
+   export const getStaticProps: GetStaticProps = async (context) => {
      return { props: {} };
    };
    ```
