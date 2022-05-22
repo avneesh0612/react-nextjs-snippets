@@ -63,5 +63,16 @@
       "export default Document;"
     ],
     "description": "JavaScript: Next.js custom document"
+  },
+  "napi": {
+    "prefix": "ngapi",
+    "body": [
+      "const handler = (req, res) => {",
+      "  res.status(200).json({ name: \"John Doe\" });",
+      "};",
+      "",
+      "export default handler;"
+    ],
+    "description": "Next.js API Route"
   }
 }
