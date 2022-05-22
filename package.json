@@ -17,8 +17,9 @@
   "scripts": {
     "prepare": "husky install",
     "pre-commit": "yarn run format && git add -A .",
-    "format": "prettier --write \"packages/vscode/{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\"",
-    "format:check": "prettier --check \"packages/vscode/{code,snippets}/**/*.{js,jsx,ts,tsx,json,md}\""
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "generateReadme": "node ./src/automation/scripts/generateReadme.js"
   },
   "engines": {
     "vscode": "^1.64.0"
@@ -27,35 +28,35 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./packages/vscode/snippets/react-javascript.json"
+        "path": "./src/extension/snippets/react-javascript.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./packages/vscode/snippets/react-javascript.json"
+        "path": "./src/extension/snippets/react-javascript.json"
       },
       {
         "language": "typescript",
-        "path": "./packages/vscode/snippets/react-typescript.json"
+        "path": "./src/extension/snippets/react-typescript.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./packages/vscode/snippets/react-typescript.json"
+        "path": "./src/extension/snippets/react-typescript.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./packages/vscode/snippets/next-javascript.json"
+        "path": "./src/extension/snippets/next-javascript.json"
       },
       {
         "language": "typescript",
-        "path": "./packages/vscode/snippets/next-typescript.json"
+        "path": "./src/extension/snippets/next-typescript.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./packages/vscode/snippets/next-typescript.json"
+        "path": "./src/extension/snippets/next-typescript.json"
       },
       {
         "language": "javascript",
-        "path": "./packages/vscode/snippets/next-javascript.json"
+        "path": "./src/extension/snippets/next-javascript.json"
       }
     ]
   }

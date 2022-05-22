@@ -73,6 +73,6 @@
       "",
       "export default handler;"
     ],
-    "description": "Next.js API Route"
+    "description": "Javascript: Next.js API Route"
   }
 }

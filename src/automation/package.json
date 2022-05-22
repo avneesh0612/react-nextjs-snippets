@@ -1,0 +1,16 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node scripts/generateSnippets.js",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "0.27.2",
+    "object-path": "0.11.8",
+    "shelljs": "0.8.5"
+  },
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}

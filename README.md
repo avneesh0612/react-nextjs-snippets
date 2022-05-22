@@ -46,7 +46,7 @@ If you are using `coc-snippets`, you can simply run the following command -
 
 # Usage
 
-All the snippets and using guide is given in the [USING Guide](./packages/vscode/README.md)
+All the snippets and using guide is given in the [USING Guide](./src/extension/README.md)
 
 # Show your support
 
@@ -56,7 +56,6 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2022 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
 This project is [GNU](https://github.com/avneesh0612/react-nextjs-snippets/blob/main/LICENSE) licensed.
-
 
 ## 🦸‍♂️ Authors
 
