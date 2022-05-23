@@ -45,7 +45,7 @@
   },
   "rust": {
     "prefix": "rust",
-    "body": ["const [${1}, set${1}] = useState(${2});"],
+    "body": ["const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(${2});"],
     "description": "TypeScript: useState hook"
   },
   "ruct": {
