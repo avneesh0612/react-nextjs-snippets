@@ -41,7 +41,7 @@ Plug "avneesh0612/react-nextjs-snippets"
 If you are using `coc-snippets`, you can simply run the following command -
 
 ```
-:CocInstall https://github.com/avneesh0612/react-nextjs-snippets@main
+:CocInstall https://github.com/buidler-hub/react-nextjs-snippets@main
 ```
 
 # Usage
@@ -55,7 +55,7 @@ Give a ⭐️ if this project helped you!
 # 📝 License
 
 Copyright © 2022 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
-This project is [GNU](https://github.com/avneesh0612/react-nextjs-snippets/blob/main/LICENSE) licensed.
+This project is [GNU](https://github.com/buidler-hub/react-nextjs-snippets/blob/main/LICENSE) licensed.
 
 ## 🦸‍♂️ Authors
 
