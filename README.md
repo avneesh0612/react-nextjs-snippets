@@ -29,7 +29,7 @@ might need to explicitly enable loading of vscode snippet plugins (like in the c
 With [packer](https://github.com/wbthomason/packer.nvim) -
 
 ```
-use "avneesh0612/react-nextjs-snippets/"
+use "avneesh0612/react-nextjs-snippets"
 ```
 
 With [vim-plug](https://github.com/junegunn/vim-plug)
