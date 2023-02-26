@@ -6,7 +6,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "axios": "0.27.2",
+    "axios": "1.1.2",
     "object-path": "0.11.8",
     "shelljs": "0.8.5"
   },
